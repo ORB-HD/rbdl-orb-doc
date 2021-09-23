@@ -32,6 +32,7 @@ var NAVTREE =
     [ "A simple example", "dd/d4c/_simple_example.html", null ],
     [ "Python API example", "dd/dee/_python_example.html", null ],
     [ "LuaModel example", "dc/d9c/_lua_model_example.html", null ],
+    [ "Casadi", "d5/d90/_casadi.html", null ],
     [ "Todo List", "dd/da0/todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [
@@ -73,14 +74,14 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"d1/d80/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_torque_muscle_function_factory.html#af06ef109c3f9f58f63a2b5bbc8b43171",
-"d3/d7d/group__constraints__group.html",
-"d4/d41/_spatial_algebra_operators_8h.html#ac6008a690ec5298aad69cdf0524b5080",
-"d7/d11/rbdl__utils_8h.html#abfadeaeccca866d38e837e0a2cd9049d",
-"da/def/_logging_8h.html#a10c4a2175fb8e88771a13630162d721c",
-"de/d3c/_dynamics_8cc.html",
-"functions_vars_y.html"
+"",
+"d1/dc3/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_fit_torque_muscle_parameters.html#a3995f925533bd052a4e1d49c5779da62",
+"d3/d7d/group__constraints__group.html#ga12450d940a3ede885f58f318e51ed109",
+"d4/d54/_constraint_8h.html#a4fd4534516907acda4981527fbfa3954ab66972af5fffcf389c1a33a9b29c51f8",
+"d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a13ef4ded9bddce53e54de8ee440d3f17",
+"da/dd1/class_logging_guard.html#a7ee4e17148a8ffd4f9c07c5b6d66375f",
+"dc/dff/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_smooth_segmented_function.html#a89d6b3e9ce41251f0102baf2d99e871a",
+"df/d59/rbdl__mathutils_8cc.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

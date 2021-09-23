@@ -2,9 +2,9 @@ var class_rigid_body_dynamics_1_1_math_1_1_quaternion =
 [
     [ "Quaternion", "d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a65ed15cc19af958b5933b5c522f10e66", null ],
     [ "Quaternion", "d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#ae1da41a98bea97c5f1a308906c0bf459", null ],
-    [ "Quaternion", "d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a9ec4b46eefaf6f6d6875f5e010566d3d", null ],
+    [ "Quaternion", "d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a203af9406532eee1bcd6711ccffa72ae", null ],
     [ "conjugate", "d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a7d55b2e910bc630b24c060d1fe2db4d3", null ],
-    [ "fromAxisAngle", "d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a4579b23f2d0d8c83a2822522cbb9e484", null ],
+    [ "fromAxisAngle", "d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a30521c64b1707aae850437d5aa8f6fad", null ],
     [ "fromGLRotate", "d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#ae646f75e509729bddfa51a3c9f61ad4a", null ],
     [ "fromMatrix", "d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a4bfc5f86bc9aa2b95c30f5057bf3317e", null ],
     [ "fromXYZAngles", "d0/d19/class_rigid_body_dynamics_1_1_math_1_1_quaternion.html#a4284216adc00a7f595d993f1f1495036", null ],

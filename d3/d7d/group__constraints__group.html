@@ -176,61 +176,61 @@ Functions</h2></td></tr>
 <tr class="memitem:gac8bb3912a3ce86b15842e79d0b421204"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gac8bb3912a3ce86b15842e79d0b421204">clear</a> ()</td></tr>
 <tr class="memdesc:gac8bb3912a3ce86b15842e79d0b421204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all variables in the constraint set.  <a href="../../d3/d7d/group__constraints__group.html#gac8bb3912a3ce86b15842e79d0b421204">More...</a><br /></td></tr>
 <tr class="separator:gac8bb3912a3ce86b15842e79d0b421204"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ce53c25757c1d956055546418ce7ce2"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga1ce53c25757c1d956055546418ce7ce2">CalcConstraintsPositionError</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;errOutput, bool update_kinematics=true)</td></tr>
-<tr class="memdesc:ga1ce53c25757c1d956055546418ce7ce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the position errors for the given <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>.  <a href="../../d3/d7d/group__constraints__group.html#ga1ce53c25757c1d956055546418ce7ce2">More...</a><br /></td></tr>
-<tr class="separator:ga1ce53c25757c1d956055546418ce7ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4f3589762ac6c120c5e34e6fffed1883"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga4f3589762ac6c120c5e34e6fffed1883">CalcConstraintsJacobian</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;GOutput, bool update_kinematics=true)</td></tr>
-<tr class="memdesc:ga4f3589762ac6c120c5e34e6fffed1883"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Jacobian for the given <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>.  <a href="../../d3/d7d/group__constraints__group.html#ga4f3589762ac6c120c5e34e6fffed1883">More...</a><br /></td></tr>
-<tr class="separator:ga4f3589762ac6c120c5e34e6fffed1883"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab2c31ffa30312a56e407215a16647eb4"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gab2c31ffa30312a56e407215a16647eb4">CalcConstraintsVelocityError</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;errOutput, bool update_kinematics=true)</td></tr>
-<tr class="memdesc:gab2c31ffa30312a56e407215a16647eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the velocity errors for the given <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>.  <a href="../../d3/d7d/group__constraints__group.html#gab2c31ffa30312a56e407215a16647eb4">More...</a><br /></td></tr>
-<tr class="separator:gab2c31ffa30312a56e407215a16647eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga674cfd6e43c963d8838c43e88da63ba6"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga674cfd6e43c963d8838c43e88da63ba6">CalcConstrainedSystemVariables</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Tau, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CSOutput, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
-<tr class="memdesc:ga674cfd6e43c963d8838c43e88da63ba6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the terms <img class="formulaInl" alt="$H$" src="../../form_28.png" width="14" height="12"/>, <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/>, and <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width="11" height="11"/> of the constrained dynamic problem and stores them in the <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>.  <a href="../../d3/d7d/group__constraints__group.html#ga674cfd6e43c963d8838c43e88da63ba6">More...</a><br /></td></tr>
-<tr class="separator:ga674cfd6e43c963d8838c43e88da63ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac6aa337d00ddc22b8c07fa19e7c0bb0c"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gac6aa337d00ddc22b8c07fa19e7c0bb0c">CalcAssemblyQ</a> (Model &amp;model, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> QInit, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QOutput, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;weights, double tolerance=1e-12, unsigned int max_iter=100)</td></tr>
-<tr class="memdesc:gac6aa337d00ddc22b8c07fa19e7c0bb0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a feasible initial value of the generalized joint positions.  <a href="../../d3/d7d/group__constraints__group.html#gac6aa337d00ddc22b8c07fa19e7c0bb0c">More...</a><br /></td></tr>
-<tr class="separator:gac6aa337d00ddc22b8c07fa19e7c0bb0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaee38aa5d177939a2705caf89013af4cf"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gaee38aa5d177939a2705caf89013af4cf">CalcAssemblyQDot</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotInit, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotOutput, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;weights)</td></tr>
-<tr class="memdesc:gaee38aa5d177939a2705caf89013af4cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a feasible initial value of the generalized joint velocities.  <a href="../../d3/d7d/group__constraints__group.html#gaee38aa5d177939a2705caf89013af4cf">More...</a><br /></td></tr>
-<tr class="separator:gaee38aa5d177939a2705caf89013af4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6f8bd8a956b971a5fb29f5252631ba90"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga6f8bd8a956b971a5fb29f5252631ba90">ForwardDynamicsConstraintsDirect</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Tau, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotOutput, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
-<tr class="memdesc:ga6f8bd8a956b971a5fb29f5252631ba90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes forward dynamics with contact by constructing and solving the full lagrangian equation.  <a href="../../d3/d7d/group__constraints__group.html#ga6f8bd8a956b971a5fb29f5252631ba90">More...</a><br /></td></tr>
-<tr class="separator:ga6f8bd8a956b971a5fb29f5252631ba90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafbdff81ed0bc8636ee03b15e0681574e"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gafbdff81ed0bc8636ee03b15e0681574e">ForwardDynamicsConstraintsRangeSpaceSparse</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Tau, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDot, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext)</td></tr>
-<tr class="separator:gafbdff81ed0bc8636ee03b15e0681574e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga7a4118c2e5389caa67b1f5404e10cef6"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga7a4118c2e5389caa67b1f5404e10cef6">ForwardDynamicsConstraintsNullSpace</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">VectorNd</a> &amp;Tau, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">VectorNd</a> &amp;QDDot, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext)</td></tr>
-<tr class="separator:ga7a4118c2e5389caa67b1f5404e10cef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa54ca5500dacb8c4f51694132ede62fc"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gaa54ca5500dacb8c4f51694132ede62fc">ForwardDynamicsContactsKokkevis</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Tau, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotOutput)</td></tr>
-<tr class="memdesc:gaa54ca5500dacb8c4f51694132ede62fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes forward dynamics that accounts for active contacts in <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>.  <a href="../../d3/d7d/group__constraints__group.html#gaa54ca5500dacb8c4f51694132ede62fc">More...</a><br /></td></tr>
-<tr class="separator:gaa54ca5500dacb8c4f51694132ede62fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga09a585726610f741ea111314400e8571"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga09a585726610f741ea111314400e8571">InverseDynamicsConstraintsRelaxed</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotControls, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotOutput, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;TauOutput, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
-<tr class="memdesc:ga09a585726610f741ea111314400e8571"><td class="mdescLeft">&#160;</td><td class="mdescRight">A relaxed inverse-dynamics operator that can be applied to under-actuated or fully-actuated constrained multibody systems.  <a href="../../d3/d7d/group__constraints__group.html#ga09a585726610f741ea111314400e8571">More...</a><br /></td></tr>
-<tr class="separator:ga09a585726610f741ea111314400e8571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaef2695e4f2263fedb8918976f0e1885f"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gaef2695e4f2263fedb8918976f0e1885f">InverseDynamicsConstraints</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotDesired, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotOutput, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;TauOutput, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
-<tr class="memdesc:gaef2695e4f2263fedb8918976f0e1885f"><td class="mdescLeft">&#160;</td><td class="mdescRight">An inverse-dynamics operator that can be applied to fully-actuated constrained systems.  <a href="../../d3/d7d/group__constraints__group.html#gaef2695e4f2263fedb8918976f0e1885f">More...</a><br /></td></tr>
-<tr class="separator:gaef2695e4f2263fedb8918976f0e1885f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga353897adce77ffa6e8c29f2c7bde61bf"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga353897adce77ffa6e8c29f2c7bde61bf">isConstrainedSystemFullyActuated</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
-<tr class="memdesc:ga353897adce77ffa6e8c29f2c7bde61bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">A method to evaluate if the constrained system is fully actuated.  <a href="../../d3/d7d/group__constraints__group.html#ga353897adce77ffa6e8c29f2c7bde61bf">More...</a><br /></td></tr>
-<tr class="separator:ga353897adce77ffa6e8c29f2c7bde61bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2a56344b9ff0c8e0f79616b188243b30"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga2a56344b9ff0c8e0f79616b188243b30">ComputeConstraintImpulsesDirect</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotMinus, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotPlusOutput)</td></tr>
-<tr class="memdesc:ga2a56344b9ff0c8e0f79616b188243b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes contact gain by constructing and solving the full lagrangian equation.  <a href="../../d3/d7d/group__constraints__group.html#ga2a56344b9ff0c8e0f79616b188243b30">More...</a><br /></td></tr>
-<tr class="separator:ga2a56344b9ff0c8e0f79616b188243b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab40ae6185da5d2128a9baf40c2fe15fa"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gab40ae6185da5d2128a9baf40c2fe15fa">ComputeConstraintImpulsesRangeSpaceSparse</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotMinus, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotPlusOutput)</td></tr>
-<tr class="memdesc:gab40ae6185da5d2128a9baf40c2fe15fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves contact gain using SolveContactSystemRangeSpaceSparse()  <a href="../../d3/d7d/group__constraints__group.html#gab40ae6185da5d2128a9baf40c2fe15fa">More...</a><br /></td></tr>
-<tr class="separator:gab40ae6185da5d2128a9baf40c2fe15fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadf1dbc3fa9dc2d22c336143d0509b35d"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gadf1dbc3fa9dc2d22c336143d0509b35d">ComputeConstraintImpulsesNullSpace</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotMinus, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotPlusOutput)</td></tr>
-<tr class="memdesc:gadf1dbc3fa9dc2d22c336143d0509b35d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves contact gain using SolveContactSystemNullSpace()  <a href="../../d3/d7d/group__constraints__group.html#gadf1dbc3fa9dc2d22c336143d0509b35d">More...</a><br /></td></tr>
-<tr class="separator:gadf1dbc3fa9dc2d22c336143d0509b35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4e7f3d41d498f74389c6376a4ff9a9b3"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga4e7f3d41d498f74389c6376a4ff9a9b3">SolveConstrainedSystemDirect</a> (<a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;H, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;G, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;c, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;gamma, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;lambda, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;A, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;b, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;x, Math::LinearSolver &amp;linear_solver)</td></tr>
-<tr class="memdesc:ga4e7f3d41d498f74389c6376a4ff9a9b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the full contact system directly, i.e. simultaneously for contact forces and joint accelerations.  <a href="../../d3/d7d/group__constraints__group.html#ga4e7f3d41d498f74389c6376a4ff9a9b3">More...</a><br /></td></tr>
-<tr class="separator:ga4e7f3d41d498f74389c6376a4ff9a9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac634d60a1857213ec7289a76f8bd280a"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gac634d60a1857213ec7289a76f8bd280a">SolveConstrainedSystemRangeSpaceSparse</a> (Model &amp;model, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;H, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;G, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;c, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;gamma, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;lambda, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;K, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;a, Math::LinearSolver linear_solver)</td></tr>
-<tr class="memdesc:gac634d60a1857213ec7289a76f8bd280a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the contact system by first solving for the the joint accelerations and then the contact forces using a sparse matrix decomposition of the joint space inertia matrix.  <a href="../../d3/d7d/group__constraints__group.html#gac634d60a1857213ec7289a76f8bd280a">More...</a><br /></td></tr>
-<tr class="separator:gac634d60a1857213ec7289a76f8bd280a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga291125f9f37ab712f624974378ca8384"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga291125f9f37ab712f624974378ca8384">SolveConstrainedSystemNullSpace</a> (<a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;H, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;G, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;c, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;gamma, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;lambda, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;Y, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;Z, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot_y, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot_z, Math::LinearSolver &amp;linear_solver)</td></tr>
-<tr class="memdesc:ga291125f9f37ab712f624974378ca8384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the contact system by first solving for the joint accelerations and then for the constraint forces.  <a href="../../d3/d7d/group__constraints__group.html#ga291125f9f37ab712f624974378ca8384">More...</a><br /></td></tr>
-<tr class="separator:ga291125f9f37ab712f624974378ca8384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3c47427f908d07a639f0f2716a7aa031"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga3c47427f908d07a639f0f2716a7aa031">CalcConstraintsPositionError</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;errOutput, bool update_kinematics=true)</td></tr>
+<tr class="memdesc:ga3c47427f908d07a639f0f2716a7aa031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the position errors for the given <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>.  <a href="../../d3/d7d/group__constraints__group.html#ga3c47427f908d07a639f0f2716a7aa031">More...</a><br /></td></tr>
+<tr class="separator:ga3c47427f908d07a639f0f2716a7aa031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac417c6d520959d7f7fbdfec761c0d85b"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gac417c6d520959d7f7fbdfec761c0d85b">CalcConstraintsJacobian</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;GOutput, bool update_kinematics=true)</td></tr>
+<tr class="memdesc:gac417c6d520959d7f7fbdfec761c0d85b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the Jacobian for the given <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>.  <a href="../../d3/d7d/group__constraints__group.html#gac417c6d520959d7f7fbdfec761c0d85b">More...</a><br /></td></tr>
+<tr class="separator:gac417c6d520959d7f7fbdfec761c0d85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3dd0f48f570ff3e51a4776c6eee13562"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga3dd0f48f570ff3e51a4776c6eee13562">CalcConstraintsVelocityError</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;errOutput, bool update_kinematics=true)</td></tr>
+<tr class="memdesc:ga3dd0f48f570ff3e51a4776c6eee13562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the velocity errors for the given <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>.  <a href="../../d3/d7d/group__constraints__group.html#ga3dd0f48f570ff3e51a4776c6eee13562">More...</a><br /></td></tr>
+<tr class="separator:ga3dd0f48f570ff3e51a4776c6eee13562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga61accbde29ab843a7a394f6155641734"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga61accbde29ab843a7a394f6155641734">CalcConstrainedSystemVariables</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Tau, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CSOutput, bool update_kinematics=true, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
+<tr class="memdesc:ga61accbde29ab843a7a394f6155641734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the terms <img class="formulaInl" alt="$H$" src="../../form_28.png" width="14" height="12"/>, <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/>, and <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width="11" height="11"/> of the constrained dynamic problem and stores them in the <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>.  <a href="../../d3/d7d/group__constraints__group.html#ga61accbde29ab843a7a394f6155641734">More...</a><br /></td></tr>
+<tr class="separator:ga61accbde29ab843a7a394f6155641734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga75258a83db48d2f6d3e90971f115a6f5"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga75258a83db48d2f6d3e90971f115a6f5">CalcAssemblyQ</a> (Model &amp;model, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> QInit, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QOutput, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;weights, double tolerance=1e-12, unsigned int max_iter=100)</td></tr>
+<tr class="memdesc:ga75258a83db48d2f6d3e90971f115a6f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a feasible initial value of the generalized joint positions.  <a href="../../d3/d7d/group__constraints__group.html#ga75258a83db48d2f6d3e90971f115a6f5">More...</a><br /></td></tr>
+<tr class="separator:ga75258a83db48d2f6d3e90971f115a6f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8255df83454e054870423e5272766bba"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga8255df83454e054870423e5272766bba">CalcAssemblyQDot</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotInit, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotOutput, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;weights)</td></tr>
+<tr class="memdesc:ga8255df83454e054870423e5272766bba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a feasible initial value of the generalized joint velocities.  <a href="../../d3/d7d/group__constraints__group.html#ga8255df83454e054870423e5272766bba">More...</a><br /></td></tr>
+<tr class="separator:ga8255df83454e054870423e5272766bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga49fe9962b2335c089849b401cab073fa"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga49fe9962b2335c089849b401cab073fa">ForwardDynamicsConstraintsDirect</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Tau, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotOutput, bool update_kinematics=true, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
+<tr class="memdesc:ga49fe9962b2335c089849b401cab073fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes forward dynamics with contact by constructing and solving the full lagrangian equation.  <a href="../../d3/d7d/group__constraints__group.html#ga49fe9962b2335c089849b401cab073fa">More...</a><br /></td></tr>
+<tr class="separator:ga49fe9962b2335c089849b401cab073fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad1113b4f5c86027613b0ca11e8c2f006"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gad1113b4f5c86027613b0ca11e8c2f006">ForwardDynamicsConstraintsRangeSpaceSparse</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Tau, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotOutput, bool update_kinematics=true, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
+<tr class="separator:gad1113b4f5c86027613b0ca11e8c2f006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3d72f93d965a2dd9c58be467bf6bb838"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga3d72f93d965a2dd9c58be467bf6bb838">ForwardDynamicsConstraintsNullSpace</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Tau, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotOutput, bool update_kinematics=true, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
+<tr class="separator:ga3d72f93d965a2dd9c58be467bf6bb838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad8c4672f2fb3e7e43626a2029070730d"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gad8c4672f2fb3e7e43626a2029070730d">ForwardDynamicsContactsKokkevis</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Tau, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotOutput)</td></tr>
+<tr class="memdesc:gad8c4672f2fb3e7e43626a2029070730d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes forward dynamics that accounts for active contacts in <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>.  <a href="../../d3/d7d/group__constraints__group.html#gad8c4672f2fb3e7e43626a2029070730d">More...</a><br /></td></tr>
+<tr class="separator:gad8c4672f2fb3e7e43626a2029070730d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga401aa236a2126d384eb76a5d7756e220"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga401aa236a2126d384eb76a5d7756e220">InverseDynamicsConstraintsRelaxed</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotControls, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotOutput, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;TauOutput, bool update_kinematics=true, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
+<tr class="memdesc:ga401aa236a2126d384eb76a5d7756e220"><td class="mdescLeft">&#160;</td><td class="mdescRight">A relaxed inverse-dynamics operator that can be applied to under-actuated or fully-actuated constrained multibody systems.  <a href="../../d3/d7d/group__constraints__group.html#ga401aa236a2126d384eb76a5d7756e220">More...</a><br /></td></tr>
+<tr class="separator:ga401aa236a2126d384eb76a5d7756e220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga662a48c9555c47269a992fca0150fdc3"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga662a48c9555c47269a992fca0150fdc3">InverseDynamicsConstraints</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotDesired, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDDotOutput, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;TauOutput, bool update_kinematics=true, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
+<tr class="memdesc:ga662a48c9555c47269a992fca0150fdc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">An inverse-dynamics operator that can be applied to fully-actuated constrained systems.  <a href="../../d3/d7d/group__constraints__group.html#ga662a48c9555c47269a992fca0150fdc3">More...</a><br /></td></tr>
+<tr class="separator:ga662a48c9555c47269a992fca0150fdc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac38bbd2d10d1e4cc32d9421f0faa0d02"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gac38bbd2d10d1e4cc32d9421f0faa0d02">isConstrainedSystemFullyActuated</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDot, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, bool update_kinematics=true, std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *f_ext=NULL)</td></tr>
+<tr class="memdesc:gac38bbd2d10d1e4cc32d9421f0faa0d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">A method to evaluate if the constrained system is fully actuated.  <a href="../../d3/d7d/group__constraints__group.html#gac38bbd2d10d1e4cc32d9421f0faa0d02">More...</a><br /></td></tr>
+<tr class="separator:gac38bbd2d10d1e4cc32d9421f0faa0d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7bdadfc55b507d868ac9b3f092e04a57"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga7bdadfc55b507d868ac9b3f092e04a57">ComputeConstraintImpulsesDirect</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotMinus, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotPlusOutput)</td></tr>
+<tr class="memdesc:ga7bdadfc55b507d868ac9b3f092e04a57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes contact gain by constructing and solving the full lagrangian equation.  <a href="../../d3/d7d/group__constraints__group.html#ga7bdadfc55b507d868ac9b3f092e04a57">More...</a><br /></td></tr>
+<tr class="separator:ga7bdadfc55b507d868ac9b3f092e04a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd8e50fe7b1e816d83fb37dda6c35a08"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gacd8e50fe7b1e816d83fb37dda6c35a08">ComputeConstraintImpulsesRangeSpaceSparse</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotMinus, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotPlusOutput)</td></tr>
+<tr class="memdesc:gacd8e50fe7b1e816d83fb37dda6c35a08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves contact gain using SolveContactSystemRangeSpaceSparse()  <a href="../../d3/d7d/group__constraints__group.html#gacd8e50fe7b1e816d83fb37dda6c35a08">More...</a><br /></td></tr>
+<tr class="separator:gacd8e50fe7b1e816d83fb37dda6c35a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0a5081b5849c76c5bbc19643a09e7be5"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga0a5081b5849c76c5bbc19643a09e7be5">ComputeConstraintImpulsesNullSpace</a> (Model &amp;model, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;Q, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotMinus, <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;CS, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;QDotPlusOutput)</td></tr>
+<tr class="memdesc:ga0a5081b5849c76c5bbc19643a09e7be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves contact gain using SolveContactSystemNullSpace()  <a href="../../d3/d7d/group__constraints__group.html#ga0a5081b5849c76c5bbc19643a09e7be5">More...</a><br /></td></tr>
+<tr class="separator:ga0a5081b5849c76c5bbc19643a09e7be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga606469812dd551edbe9236f6bab0a5eb"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#ga606469812dd551edbe9236f6bab0a5eb">SolveConstrainedSystemDirect</a> (<a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;H, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;G, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;c, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;gamma, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;lambda, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;A, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;b, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;x, Math::LinearSolver &amp;linear_solver)</td></tr>
+<tr class="memdesc:ga606469812dd551edbe9236f6bab0a5eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the full contact system directly, i.e. simultaneously for contact forces and joint accelerations.  <a href="../../d3/d7d/group__constraints__group.html#ga606469812dd551edbe9236f6bab0a5eb">More...</a><br /></td></tr>
+<tr class="separator:ga606469812dd551edbe9236f6bab0a5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac63f755a2f0b2f1946d6c30e70fca25f"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gac63f755a2f0b2f1946d6c30e70fca25f">SolveConstrainedSystemRangeSpaceSparse</a> (Model &amp;model, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;H, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;G, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;c, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;gamma, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;lambda, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;K, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;a, Math::LinearSolver linear_solver)</td></tr>
+<tr class="memdesc:gac63f755a2f0b2f1946d6c30e70fca25f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the contact system by first solving for the the joint accelerations and then the contact forces using a sparse matrix decomposition of the joint space inertia matrix.  <a href="../../d3/d7d/group__constraints__group.html#gac63f755a2f0b2f1946d6c30e70fca25f">More...</a><br /></td></tr>
+<tr class="separator:gac63f755a2f0b2f1946d6c30e70fca25f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab18f841adb5eb14a42a7bff4473bb9b1"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/group__constraints__group.html#gab18f841adb5eb14a42a7bff4473bb9b1">SolveConstrainedSystemNullSpace</a> (<a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;H, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;G, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;c, const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;gamma, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;lambda, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;Y, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;Z, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot_y, <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;qddot_z, Math::LinearSolver &amp;linear_solver)</td></tr>
+<tr class="memdesc:gab18f841adb5eb14a42a7bff4473bb9b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the contact system by first solving for the joint accelerations and then for the constraint forces.  <a href="../../d3/d7d/group__constraints__group.html#gab18f841adb5eb14a42a7bff4473bb9b1">More...</a><br /></td></tr>
+<tr class="separator:gab18f841adb5eb14a42a7bff4473bb9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -401,14 +401,14 @@ Linear System of the Constrained Dynamics</h2>
 <p>In the presence of constraints, to compute the acceleration one has to solve a linear system of the form: </p><p class="formulaDsp">
 <img class="formulaDsp" alt="\[ \left( \begin{array}{cc} H &amp; G^T \\ G &amp; 0 \end{array} \right) \left( \begin{array}{c} \ddot{q} \\ - \lambda \end{array} \right) = \left( \begin{array}{c} -C + \tau \\ \gamma \end{array} \right) \]" src="../../form_27.png" width="248" height="38"/>
 </p>
-<p> where <img class="formulaInl" alt="$H$" src="../../form_28.png" width="14" height="12"/> is the joint space inertia matrix computed with the <a class="el" href="../../d6/d63/group__dynamics__group.html#ga16a9d225d96d260af451f69e258d0875" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a>, <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/> is the constraint Jacobian, <img class="formulaInl" alt="$C$" src="../../form_29.png" width="12" height="12"/> the bias force (sometimes called "non-linear
+<p> where <img class="formulaInl" alt="$H$" src="../../form_28.png" width="14" height="12"/> is the joint space inertia matrix computed with the <a class="el" href="../../d6/d63/group__dynamics__group.html#gab96bd7cf90ba4130b5f12dd0ad5668e9" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a>, <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/> is the constraint Jacobian, <img class="formulaInl" alt="$C$" src="../../form_29.png" width="12" height="12"/> the bias force (sometimes called "non-linear
   effects"), and <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width="11" height="11"/> the generalized acceleration independent part of the constraints.</p>
 <h2><a class="anchor" id="collision_system"></a>
 Linear System of the Constraint Impacts</h2>
 <p>Similarly to compute the response of the model to a constraint gain one has to solve a system of the following form: </p><p class="formulaDsp">
 <img class="formulaDsp" alt="\[ \left( \begin{array}{cc} H &amp; G^T \\ G &amp; 0 \end{array} \right) \left( \begin{array}{c} \dot{q}^{+} \\ \Lambda \end{array} \right) = \left( \begin{array}{c} H \dot{q}^{-} \\ v^{+} \end{array} \right) \]" src="../../form_30.png" width="227" height="38"/>
 </p>
-<p> where <img class="formulaInl" alt="$H$" src="../../form_28.png" width="14" height="12"/> is the joint space inertia matrix computed with the <a class="el" href="../../d6/d63/group__dynamics__group.html#ga16a9d225d96d260af451f69e258d0875" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a>, <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/> are the Jacobians of the constraints, <img class="formulaInl" alt="$\dot{q}^{+}$" src="../../form_31.png" width="17" height="17"/> the generalized velocity after the impact, <img class="formulaInl" alt="$\Lambda$" src="../../form_32.png" width="12" height="12"/> the impulses at each constraint, <img class="formulaInl" alt="$\dot{q}^{-}$" src="../../form_33.png" width="15" height="14"/> the generalized velocity before the impact, and <img class="formulaInl" alt="$v^{+}$" src="../../form_34.png" width="18" height="14"/> the desired velocity of each constraint after the impact (known beforehand, usually 0). The value of <img class="formulaInl" alt="$v^{+}$" src="../../form_34.png" width="18" height="14"/> can is specified via the variable <a class="el" href="../../d3/d7d/group__constraints__group.html#gaa85422fa19c98f69d05e2df5aa08032e" title="The velocities we want to have along the constraint directions.">ConstraintSet::v_plus</a> and defaults to 0.</p>
+<p> where <img class="formulaInl" alt="$H$" src="../../form_28.png" width="14" height="12"/> is the joint space inertia matrix computed with the <a class="el" href="../../d6/d63/group__dynamics__group.html#gab96bd7cf90ba4130b5f12dd0ad5668e9" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a>, <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/> are the Jacobians of the constraints, <img class="formulaInl" alt="$\dot{q}^{+}$" src="../../form_31.png" width="17" height="17"/> the generalized velocity after the impact, <img class="formulaInl" alt="$\Lambda$" src="../../form_32.png" width="12" height="12"/> the impulses at each constraint, <img class="formulaInl" alt="$\dot{q}^{-}$" src="../../form_33.png" width="15" height="14"/> the generalized velocity before the impact, and <img class="formulaInl" alt="$v^{+}$" src="../../form_34.png" width="18" height="14"/> the desired velocity of each constraint after the impact (known beforehand, usually 0). The value of <img class="formulaInl" alt="$v^{+}$" src="../../form_34.png" width="18" height="14"/> can is specified via the variable <a class="el" href="../../d3/d7d/group__constraints__group.html#gaa85422fa19c98f69d05e2df5aa08032e" title="The velocities we want to have along the constraint directions.">ConstraintSet::v_plus</a> and defaults to 0.</p>
 <h2><a class="anchor" id="solution_methods"></a>
 Solution Methods</h2>
 <p>There are essentially three different approaches to solve these systems:</p><ol type="1">
@@ -423,17 +423,17 @@ Methods for Solving Constrained</h2>
 <p>Dynamics</p>
 <p>RBDL provides the following methods to compute the acceleration of a constrained system:</p>
 <ul>
-<li><a class="el" href="../../d3/d7d/group__constraints__group.html#ga6f8bd8a956b971a5fb29f5252631ba90" title="Computes forward dynamics with contact by constructing and solving the full lagrangian equation.">ForwardDynamicsConstraintsDirect()</a></li>
-<li><a class="el" href="../../d3/d7d/group__constraints__group.html#gafbdff81ed0bc8636ee03b15e0681574e">ForwardDynamicsConstraintsRangeSpaceSparse()</a></li>
-<li><a class="el" href="../../d3/d7d/group__constraints__group.html#ga7a4118c2e5389caa67b1f5404e10cef6">ForwardDynamicsConstraintsNullSpace()</a></li>
+<li><a class="el" href="../../d3/d7d/group__constraints__group.html#ga49fe9962b2335c089849b401cab073fa" title="Computes forward dynamics with contact by constructing and solving the full lagrangian equation.">ForwardDynamicsConstraintsDirect()</a></li>
+<li><a class="el" href="../../d3/d7d/group__constraints__group.html#gad1113b4f5c86027613b0ca11e8c2f006">ForwardDynamicsConstraintsRangeSpaceSparse()</a></li>
+<li><a class="el" href="../../d3/d7d/group__constraints__group.html#ga3d72f93d965a2dd9c58be467bf6bb838">ForwardDynamicsConstraintsNullSpace()</a></li>
 </ul>
 <h2><a class="anchor" id="solving_constraints_collisions"></a>
 Methods for Computing Collisions</h2>
 <p>RBDL provides the following methods to compute the collision response on new contact gains:</p>
 <ul>
-<li><a class="el" href="../../d3/d7d/group__constraints__group.html#ga2a56344b9ff0c8e0f79616b188243b30" title="Computes contact gain by constructing and solving the full lagrangian equation.">ComputeConstraintImpulsesDirect()</a></li>
-<li><a class="el" href="../../d3/d7d/group__constraints__group.html#gab40ae6185da5d2128a9baf40c2fe15fa" title="Resolves contact gain using SolveContactSystemRangeSpaceSparse()">ComputeConstraintImpulsesRangeSpaceSparse()</a></li>
-<li><a class="el" href="../../d3/d7d/group__constraints__group.html#gadf1dbc3fa9dc2d22c336143d0509b35d" title="Resolves contact gain using SolveContactSystemNullSpace()">ComputeConstraintImpulsesNullSpace()</a></li>
+<li><a class="el" href="../../d3/d7d/group__constraints__group.html#ga7bdadfc55b507d868ac9b3f092e04a57" title="Computes contact gain by constructing and solving the full lagrangian equation.">ComputeConstraintImpulsesDirect()</a></li>
+<li><a class="el" href="../../d3/d7d/group__constraints__group.html#gacd8e50fe7b1e816d83fb37dda6c35a08" title="Resolves contact gain using SolveContactSystemRangeSpaceSparse()">ComputeConstraintImpulsesRangeSpaceSparse()</a></li>
+<li><a class="el" href="../../d3/d7d/group__constraints__group.html#ga0a5081b5849c76c5bbc19643a09e7be5" title="Resolves contact gain using SolveContactSystemNullSpace()">ComputeConstraintImpulsesNullSpace()</a></li>
 </ul>
 <h2><a class="anchor" id="assembly_q_qdot"></a>
 Computing generalized joint positions and velocities</h2>
@@ -448,8 +448,8 @@ Computing generalized joint positions and velocities</h2>
 <p><img class="formulaInl" alt="$q_{0}$" src="../../form_40.png" width="12" height="11"/> and <img class="formulaInl" alt="$\dot{q}_{0}$" src="../../form_41.png" width="12" height="14"/> are initial guesses, <img class="formulaInl" alt="$\phi _{q}$" src="../../form_42.png" width="15" height="17"/> is the constraints Jacobian (partial derivative of <img class="formulaInl" alt="$\phi$" src="../../form_43.png" width="9" height="15"/> with respect to <img class="formulaInl" alt="$q$" src="../../form_44.png" width="8" height="11"/>), and <img class="formulaInl" alt="$\phi _{t}(q)$" src="../../form_45.png" width="32" height="17"/> is the partial derivative of <img class="formulaInl" alt="$\phi$" src="../../form_43.png" width="9" height="15"/> with respect to time. <img class="formulaInl" alt="$W$" src="../../form_46.png" width="17" height="12"/> is a diagonal weighting matrix, which can be exploited to prioritize changes in the position/ velocity of specific joints. With a solver capable of handling singular matrices, it is possible to set to 1 the weight of the joint positions/ velocities that should not be changed from the initial guesses, and to 0 those corresponding to the values that can be changed.</p>
 <p>These problems are solved using the Lagrange multipliers method. For the velocity problem the solution is exact. For the position problem the constraints are linearized in the form <img class="formulaInl" alt="$ \phi (q_{0}) + \phi _{t}(q0) + \phi _{q_0}(q) (q - q_{0}) $" src="../../form_47.png" width="200" height="17"/> and the linearized problem is solved iteratively until the constraint position errors are smaller than a given threshold.</p>
 <p>RBDL provides two functions to compute feasible joint position and velocities:</p><ul>
-<li><a class="el" href="../../d3/d7d/group__constraints__group.html#gac6aa337d00ddc22b8c07fa19e7c0bb0c" title="Computes a feasible initial value of the generalized joint positions.">CalcAssemblyQ()</a></li>
-<li><a class="el" href="../../d3/d7d/group__constraints__group.html#gaee38aa5d177939a2705caf89013af4cf" title="Computes a feasible initial value of the generalized joint velocities.">CalcAssemblyQDot()</a></li>
+<li><a class="el" href="../../d3/d7d/group__constraints__group.html#ga75258a83db48d2f6d3e90971f115a6f5" title="Computes a feasible initial value of the generalized joint positions.">CalcAssemblyQ()</a></li>
+<li><a class="el" href="../../d3/d7d/group__constraints__group.html#ga8255df83454e054870423e5272766bba" title="Computes a feasible initial value of the generalized joint velocities.">CalcAssemblyQDot()</a></li>
 </ul>
 <h2><a class="anchor" id="baumgarte_stabilization"></a>
 Baumgarte Stabilization</h2>
@@ -529,7 +529,7 @@ Baumgarte Stabilization</h2>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>userDefinedId</em> = <code>std::numeric_limits&lt;unsigned&#160;int&gt;::max()</code>&#160;</td>
+          <td class="paramname"><em>userDefinedId</em> = <code>std::numeric_limits&lt;&#160;unsigned&#160;int&#160;&gt;::max()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -551,10 +551,6 @@ Baumgarte Stabilization</h2>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00046">46</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/d54/_constraint_8h_source.html#l00019">RigidBodyDynamics::ConstraintTypeContact</a>.</p>
 
 </div>
 </div>
@@ -581,10 +577,6 @@ Baumgarte Stabilization</h2>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00313">313</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/d54/_constraint_8h_source.html#l00021">RigidBodyDynamics::ConstraintTypeCustom</a>.</p>
 
 </div>
 </div>
@@ -646,7 +638,7 @@ Baumgarte Stabilization</h2>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>userDefinedId</em> = <code>std::numeric_limits&lt;unsigned&#160;int&gt;::max()</code>&#160;</td>
+          <td class="paramname"><em>userDefinedId</em> = <code>std::numeric_limits&lt;&#160;unsigned&#160;int&#160;&gt;::max()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -673,10 +665,6 @@ Baumgarte Stabilization</h2>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00166">166</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/d54/_constraint_8h_source.html#l00020">RigidBodyDynamics::ConstraintTypeLoop</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00311">SpatialTransform::E</a>, and <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00312">SpatialTransform::r</a>.</p>
-
 </div>
 </div>
 <a id="gae4488dbfec02efc4c619ead2fcaaa7d9"></a>
@@ -699,18 +687,16 @@ Baumgarte Stabilization</h2>
 <p>This function allocates memory for temporary values and matrices that are required for contact force computation. Both model and constraint set must not be changed after a binding as the required memory is dependent on the model size (i.e. the number of bodies and degrees of freedom) and the number of constraints in the <a class="el" href="../../d5/d92/class_rigid_body_dynamics_1_1_constraint.html" title="Interface to define general-purpose constraints.">Constraint</a> set.</p>
 <p>The values of ConstraintSet::acceleration may still be modified after the set is bound to the model. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00392">392</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
 </div>
 </div>
-<a id="gac6aa337d00ddc22b8c07fa19e7c0bb0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac6aa337d00ddc22b8c07fa19e7c0bb0c">&#9670;&nbsp;</a></span>CalcAssemblyQ()</h2>
+<a id="ga75258a83db48d2f6d3e90971f115a6f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga75258a83db48d2f6d3e90971f115a6f5">&#9670;&nbsp;</a></span>CalcAssemblyQ()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool CalcAssemblyQ </td>
+          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::CalcAssemblyQ </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -774,20 +760,16 @@ Baumgarte Stabilization</h2>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the generalized joint positions were computed successfully, false otherwise.f </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00915">915</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00819">RigidBodyDynamics::CalcConstraintsJacobian()</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00797">RigidBodyDynamics::CalcConstraintsPositionError()</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00188">RigidBodyDynamics::JointTypeSpherical</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, <a class="el" href="../../df/d7d/_quaternion_8h_source.html#l00196">Quaternion::omegaToQDot()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00849">ConstraintSet::size()</a>, and <a class="el" href="../../da/d91/_constraints_8cc_source.html#l02003">RigidBodyDynamics::SolveLinearSystem()</a>.</p>
-
 </div>
 </div>
-<a id="gaee38aa5d177939a2705caf89013af4cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaee38aa5d177939a2705caf89013af4cf">&#9670;&nbsp;</a></span>CalcAssemblyQDot()</h2>
+<a id="ga8255df83454e054870423e5272766bba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8255df83454e054870423e5272766bba">&#9670;&nbsp;</a></span>CalcAssemblyQDot()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void CalcAssemblyQDot </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::CalcAssemblyQDot </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -842,10 +824,6 @@ Baumgarte Stabilization</h2>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01016">1016</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00819">RigidBodyDynamics::CalcConstraintsJacobian()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00849">ConstraintSet::size()</a>, and <a class="el" href="../../da/d91/_constraints_8cc_source.html#l02003">RigidBodyDynamics::SolveLinearSystem()</a>.</p>
 
 </div>
 </div>
@@ -903,18 +881,16 @@ Baumgarte Stabilization</h2>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l02163">2163</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
 </div>
 </div>
-<a id="ga674cfd6e43c963d8838c43e88da63ba6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga674cfd6e43c963d8838c43e88da63ba6">&#9670;&nbsp;</a></span>CalcConstrainedSystemVariables()</h2>
+<a id="ga61accbde29ab843a7a394f6155641734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga61accbde29ab843a7a394f6155641734">&#9670;&nbsp;</a></span>CalcConstrainedSystemVariables()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void CalcConstrainedSystemVariables </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::CalcConstrainedSystemVariables </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -946,6 +922,12 @@ Baumgarte Stabilization</h2>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_kinematics</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *&#160;</td>
           <td class="paramname"><em>f_ext</em> = <code>NULL</code>&#160;</td>
         </tr>
@@ -965,26 +947,23 @@ Baumgarte Stabilization</h2>
     <tr><td class="paramname">QDot</td><td>the generalized velocities of the joints </td></tr>
     <tr><td class="paramname">Tau</td><td>the generalized forces of the joints </td></tr>
     <tr><td class="paramname">CSOutput</td><td>the constraint set for which the error should be computed </td></tr>
+    <tr><td class="paramname">update_kinematics</td><td>whether the kinematics of the model should be updated from Q. </td></tr>
     <tr><td class="paramname">f_ext</td><td>External forces acting on the body in base coordinates (optional, defaults to NULL)</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>This function is normally called automatically in the various constrained dynamics functions, the user normally does not have to call it. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00861">861</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00908">ConstraintSet::C</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00988">ConstraintSet::cache</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00819">RigidBodyDynamics::CalcConstraintsJacobian()</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00797">RigidBodyDynamics::CalcConstraintsPositionError()</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00839">RigidBodyDynamics::CalcConstraintsVelocityError()</a>, <a class="el" href="../../de/d3c/_dynamics_8cc_source.html#l00167">RigidBodyDynamics::CompositeRigidBodyAlgorithm()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00883">ConstraintSet::constraints</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00891">ConstraintSet::err</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00893">ConstraintSet::errd</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00910">ConstraintSet::gamma</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00906">ConstraintSet::H</a>, <a class="el" href="../../de/d3c/_dynamics_8cc_source.html#l00107">RigidBodyDynamics::NonlinearEffects()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00965">ConstraintSet::QDDot_0</a>, and <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
-
 </div>
 </div>
-<a id="ga4f3589762ac6c120c5e34e6fffed1883"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4f3589762ac6c120c5e34e6fffed1883">&#9670;&nbsp;</a></span>CalcConstraintsJacobian()</h2>
+<a id="gac417c6d520959d7f7fbdfec761c0d85b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac417c6d520959d7f7fbdfec761c0d85b">&#9670;&nbsp;</a></span>CalcConstraintsJacobian()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void CalcConstraintsJacobian </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::CalcConstraintsJacobian </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -1033,20 +1012,16 @@ Baumgarte Stabilization</h2>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00819">819</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00988">ConstraintSet::cache</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00883">ConstraintSet::constraints</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../d4/d54/_constraint_8h_source.html#l00037">ConstraintCache::vecNZeros</a>.</p>
-
 </div>
 </div>
-<a id="ga1ce53c25757c1d956055546418ce7ce2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1ce53c25757c1d956055546418ce7ce2">&#9670;&nbsp;</a></span>CalcConstraintsPositionError()</h2>
+<a id="ga3c47427f908d07a639f0f2716a7aa031"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3c47427f908d07a639f0f2716a7aa031">&#9670;&nbsp;</a></span>CalcConstraintsPositionError()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void CalcConstraintsPositionError </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::CalcConstraintsPositionError </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -1096,20 +1071,16 @@ Baumgarte Stabilization</h2>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>the position error is always 0 for contact constraints. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00797">797</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00988">ConstraintSet::cache</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00883">ConstraintSet::constraints</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00849">ConstraintSet::size()</a>, and <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
-
 </div>
 </div>
-<a id="gab2c31ffa30312a56e407215a16647eb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab2c31ffa30312a56e407215a16647eb4">&#9670;&nbsp;</a></span>CalcConstraintsVelocityError()</h2>
+<a id="ga3dd0f48f570ff3e51a4776c6eee13562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3dd0f48f570ff3e51a4776c6eee13562">&#9670;&nbsp;</a></span>CalcConstraintsVelocityError()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void CalcConstraintsVelocityError </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::CalcConstraintsVelocityError </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -1165,10 +1136,6 @@ Baumgarte Stabilization</h2>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>this is equivalent to multiplying the constraint Jacobian by the generalized velocities of the joints. </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00839">839</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00988">ConstraintSet::cache</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00819">RigidBodyDynamics::CalcConstraintsJacobian()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00883">ConstraintSet::constraints</a>, and <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>.</p>
 
 </div>
 </div>
@@ -1273,10 +1240,6 @@ Baumgarte Stabilization</h2>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l02046">2046</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
-
 </div>
 </div>
 <a id="gab5066dceb0a01cc61a53b3fe256b1ee5"></a>
@@ -1380,10 +1343,6 @@ Baumgarte Stabilization</h2>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l02074">2074</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
-
 </div>
 </div>
 <a id="ga1d6715cd8f4fed772b9b03e95b1bae89"></a>
@@ -1441,10 +1400,6 @@ Baumgarte Stabilization</h2>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l02110">2110</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
 
 </div>
 </div>
@@ -1511,10 +1466,6 @@ Baumgarte Stabilization</h2>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l02134">2134</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
-
 </div>
 </div>
 <a id="gac8bb3912a3ce86b15842e79d0b421204"></a>
@@ -1534,18 +1485,16 @@ Baumgarte Stabilization</h2>
 
 <p>Clears all variables in the constraint set. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00559">559</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
 </div>
 </div>
-<a id="ga2a56344b9ff0c8e0f79616b188243b30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga2a56344b9ff0c8e0f79616b188243b30">&#9670;&nbsp;</a></span>ComputeConstraintImpulsesDirect()</h2>
+<a id="ga7bdadfc55b507d868ac9b3f092e04a57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7bdadfc55b507d868ac9b3f092e04a57">&#9670;&nbsp;</a></span>ComputeConstraintImpulsesDirect()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void ComputeConstraintImpulsesDirect </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::ComputeConstraintImpulsesDirect </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -1586,7 +1535,7 @@ Baumgarte Stabilization</h2>
 <p>This method builds and solves the linear system </p><p class="formulaDsp">
 <img class="formulaDsp" alt="\[ \left( \begin{array}{cc} H &amp; G^T \\ G &amp; 0 \end{array} \right) \left( \begin{array}{c} \dot{q}^{+} \\ \Lambda \end{array} \right) = \left( \begin{array}{c} H \dot{q}^{-} \\ v^{+} \end{array} \right) \]" src="../../form_30.png" width="227" height="38"/>
 </p>
-<p> where <img class="formulaInl" alt="$H$" src="../../form_28.png" width="14" height="12"/> is the joint space inertia matrix computed with the <a class="el" href="../../d6/d63/group__dynamics__group.html#ga16a9d225d96d260af451f69e258d0875" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a>, <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/> are the point Jacobians of the contact points, <img class="formulaInl" alt="$\dot{q}^{+}$" src="../../form_31.png" width="17" height="17"/> the generalized velocity after the impact, <img class="formulaInl" alt="$\Lambda$" src="../../form_32.png" width="12" height="12"/> the impulses at each constraint, <img class="formulaInl" alt="$\dot{q}^{-}$" src="../../form_33.png" width="15" height="14"/> the generalized velocity before the impact, and <img class="formulaInl" alt="$v^{+}$" src="../../form_34.png" width="18" height="14"/> the desired velocity of each constraint after the impact (known beforehand, usually 0). The value of <img class="formulaInl" alt="$v^{+}$" src="../../form_34.png" width="18" height="14"/> can is specified via the variable <a class="el" href="../../d3/d7d/group__constraints__group.html#gaa85422fa19c98f69d05e2df5aa08032e" title="The velocities we want to have along the constraint directions.">ConstraintSet::v_plus</a> and defaults to 0.</p>
+<p> where <img class="formulaInl" alt="$H$" src="../../form_28.png" width="14" height="12"/> is the joint space inertia matrix computed with the <a class="el" href="../../d6/d63/group__dynamics__group.html#gab96bd7cf90ba4130b5f12dd0ad5668e9" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a>, <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/> are the point Jacobians of the contact points, <img class="formulaInl" alt="$\dot{q}^{+}$" src="../../form_31.png" width="17" height="17"/> the generalized velocity after the impact, <img class="formulaInl" alt="$\Lambda$" src="../../form_32.png" width="12" height="12"/> the impulses at each constraint, <img class="formulaInl" alt="$\dot{q}^{-}$" src="../../form_33.png" width="15" height="14"/> the generalized velocity before the impact, and <img class="formulaInl" alt="$v^{+}$" src="../../form_34.png" width="18" height="14"/> the desired velocity of each constraint after the impact (known beforehand, usually 0). The value of <img class="formulaInl" alt="$v^{+}$" src="../../form_34.png" width="18" height="14"/> can is specified via the variable <a class="el" href="../../d3/d7d/group__constraints__group.html#gaa85422fa19c98f69d05e2df5aa08032e" title="The velocities we want to have along the constraint directions.">ConstraintSet::v_plus</a> and defaults to 0.</p>
 <dl class="section note"><dt>Note</dt><dd>So far, only constraints acting along cartesian coordinate axes are allowed (i.e. (1, 0, 0), (0, 1, 0), and (0, 0, 1)). Also, one must not specify redundant constraints!</dd></dl>
 <dl class="section user"><dt></dt><dd></dd></dl>
 <dl class="section note"><dt>Note</dt><dd>To increase performance group constraints body and pointwise such that constraints acting on the same body point are sequentially in <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html" title="Structure that contains both constraint information and workspace memory.">ConstraintSet</a>. This can save computation of point Jacobians <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/>.</dd></dl>
@@ -1601,20 +1550,16 @@ Baumgarte Stabilization</h2>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01140">1140</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00915">ConstraintSet::A</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00917">ConstraintSet::b</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00819">RigidBodyDynamics::CalcConstraintsJacobian()</a>, <a class="el" href="../../de/d3c/_dynamics_8cc_source.html#l00167">RigidBodyDynamics::CompositeRigidBodyAlgorithm()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00906">ConstraintSet::H</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00899">ConstraintSet::impulse</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00849">ConstraintSet::size()</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00657">RigidBodyDynamics::SolveConstrainedSystemDirect()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00901">ConstraintSet::v_plus</a>, and <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00919">ConstraintSet::x</a>.</p>
-
 </div>
 </div>
-<a id="gadf1dbc3fa9dc2d22c336143d0509b35d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadf1dbc3fa9dc2d22c336143d0509b35d">&#9670;&nbsp;</a></span>ComputeConstraintImpulsesNullSpace()</h2>
+<a id="ga0a5081b5849c76c5bbc19643a09e7be5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0a5081b5849c76c5bbc19643a09e7be5">&#9670;&nbsp;</a></span>ComputeConstraintImpulsesNullSpace()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void ComputeConstraintImpulsesNullSpace </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::ComputeConstraintImpulsesNullSpace </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -1663,20 +1608,16 @@ Baumgarte Stabilization</h2>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01196">1196</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00819">RigidBodyDynamics::CalcConstraintsJacobian()</a>, <a class="el" href="../../de/d3c/_dynamics_8cc_source.html#l00167">RigidBodyDynamics::CompositeRigidBodyAlgorithm()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00946">ConstraintSet::GT_qr</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00949">ConstraintSet::GT_qr_Q</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00906">ConstraintSet::H</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00899">ConstraintSet::impulse</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00954">ConstraintSet::qddot_y</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00955">ConstraintSet::qddot_z</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00743">RigidBodyDynamics::SolveConstrainedSystemNullSpace()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00901">ConstraintSet::v_plus</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00951">ConstraintSet::Y</a>, and <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00952">ConstraintSet::Z</a>.</p>
-
 </div>
 </div>
-<a id="gab40ae6185da5d2128a9baf40c2fe15fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab40ae6185da5d2128a9baf40c2fe15fa">&#9670;&nbsp;</a></span>ComputeConstraintImpulsesRangeSpaceSparse()</h2>
+<a id="gacd8e50fe7b1e816d83fb37dda6c35a08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacd8e50fe7b1e816d83fb37dda6c35a08">&#9670;&nbsp;</a></span>ComputeConstraintImpulsesRangeSpaceSparse()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void ComputeConstraintImpulsesRangeSpaceSparse </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::ComputeConstraintImpulsesRangeSpaceSparse </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -1724,10 +1665,6 @@ Baumgarte Stabilization</h2>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01173">1173</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00961">ConstraintSet::a</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00819">RigidBodyDynamics::CalcConstraintsJacobian()</a>, <a class="el" href="../../de/d3c/_dynamics_8cc_source.html#l00167">RigidBodyDynamics::CompositeRigidBodyAlgorithm()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00906">ConstraintSet::H</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00899">ConstraintSet::impulse</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00959">ConstraintSet::K</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00704">RigidBodyDynamics::SolveConstrainedSystemRangeSpaceSparse()</a>, <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>, and <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00901">ConstraintSet::v_plus</a>.</p>
 
 </div>
 </div>
@@ -1830,14 +1767,14 @@ Baumgarte Stabilization</h2>
 
 </div>
 </div>
-<a id="ga6f8bd8a956b971a5fb29f5252631ba90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6f8bd8a956b971a5fb29f5252631ba90">&#9670;&nbsp;</a></span>ForwardDynamicsConstraintsDirect()</h2>
+<a id="ga49fe9962b2335c089849b401cab073fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49fe9962b2335c089849b401cab073fa">&#9670;&nbsp;</a></span>ForwardDynamicsConstraintsDirect()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void ForwardDynamicsConstraintsDirect </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::ForwardDynamicsConstraintsDirect </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -1875,6 +1812,12 @@ Baumgarte Stabilization</h2>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_kinematics</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *&#160;</td>
           <td class="paramname"><em>f_ext</em> = <code>NULL</code>&#160;</td>
         </tr>
@@ -1890,7 +1833,7 @@ Baumgarte Stabilization</h2>
 <p>This method builds and solves the linear system </p><p class="formulaDsp">
 <img class="formulaDsp" alt="\[ \left( \begin{array}{cc} H &amp; G^T \\ G &amp; 0 \end{array} \right) \left( \begin{array}{c} \ddot{q} \\ -\lambda \end{array} \right) = \left( \begin{array}{c} -C + \tau \\ \gamma \end{array} \right) \]" src="../../form_57.png" width="248" height="38"/>
 </p>
-<p> where <img class="formulaInl" alt="$H$" src="../../form_28.png" width="14" height="12"/> is the joint space inertia matrix computed with the <a class="el" href="../../d6/d63/group__dynamics__group.html#ga16a9d225d96d260af451f69e258d0875" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a>, <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/> are the point Jacobians of the contact points, <img class="formulaInl" alt="$C$" src="../../form_29.png" width="12" height="12"/> the bias force (sometimes called "non-linear
+<p> where <img class="formulaInl" alt="$H$" src="../../form_28.png" width="14" height="12"/> is the joint space inertia matrix computed with the <a class="el" href="../../d6/d63/group__dynamics__group.html#gab96bd7cf90ba4130b5f12dd0ad5668e9" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a>, <img class="formulaInl" alt="$G$" src="../../form_4.png" width="12" height="12"/> are the point Jacobians of the contact points, <img class="formulaInl" alt="$C$" src="../../form_29.png" width="12" height="12"/> the bias force (sometimes called "non-linear
   effects"), and <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width="11" height="11"/> the generalized acceleration independent part of the contact point accelerations.</p>
 <dl class="section note"><dt>Note</dt><dd>This function works with ContactConstraints, LoopConstraints and Custom Constraints. Nonetheless, this method will not tolerate redundant constraints.</dd></dl>
 <dl class="section user"><dt></dt><dd></dd></dl>
@@ -1903,88 +1846,23 @@ Baumgarte Stabilization</h2>
     <tr><td class="paramname">Tau</td><td>actuations of the internal joints </td></tr>
     <tr><td class="paramname">CS</td><td>the description of all acting constraints </td></tr>
     <tr><td class="paramname">QDDotOutput</td><td>accelerations of the internals joints </td></tr>
+    <tr><td class="paramname">update_kinematics</td><td>whether the kinematics of the model should be updated from Q. </td></tr>
     <tr><td class="paramname">f_ext</td><td>External forces acting on the body in base coordinates (optional, defaults to NULL) </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section note"><dt>Note</dt><dd>During execution of this function values such as <a class="el" href="../../d3/d7d/group__constraints__group.html#ga9b96834a8bbeb859d4c5bb2889b14cde">ConstraintSet::force</a> get modified and will contain the value of the force acting along the normal. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01064">1064</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00915">ConstraintSet::A</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00917">ConstraintSet::b</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00908">ConstraintSet::C</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00861">RigidBodyDynamics::CalcConstrainedSystemVariables()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00897">ConstraintSet::force</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00910">ConstraintSet::gamma</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00906">ConstraintSet::H</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00849">ConstraintSet::size()</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00657">RigidBodyDynamics::SolveConstrainedSystemDirect()</a>, and <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00919">ConstraintSet::x</a>.</p>
-
 </div>
 </div>
-<a id="ga7a4118c2e5389caa67b1f5404e10cef6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7a4118c2e5389caa67b1f5404e10cef6">&#9670;&nbsp;</a></span>ForwardDynamicsConstraintsNullSpace()</h2>
+<a id="ga3d72f93d965a2dd9c58be467bf6bb838"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3d72f93d965a2dd9c58be467bf6bb838">&#9670;&nbsp;</a></span>ForwardDynamicsConstraintsNullSpace()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void ForwardDynamicsConstraintsNullSpace </td>
-          <td>(</td>
-          <td class="paramtype">Model &amp;&#160;</td>
-          <td class="paramname"><em>model</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">VectorNd</a> &amp;&#160;</td>
-          <td class="paramname"><em>Q</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">VectorNd</a> &amp;&#160;</td>
-          <td class="paramname"><em>QDot</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">VectorNd</a> &amp;&#160;</td>
-          <td class="paramname"><em>Tau</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>CS</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">VectorNd</a> &amp;&#160;</td>
-          <td class="paramname"><em>QDDot</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *&#160;</td>
-          <td class="paramname"><em>f_ext</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01112">1112</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00908">ConstraintSet::C</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00861">RigidBodyDynamics::CalcConstrainedSystemVariables()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00897">ConstraintSet::force</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00910">ConstraintSet::gamma</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00946">ConstraintSet::GT_qr</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00949">ConstraintSet::GT_qr_Q</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00906">ConstraintSet::H</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00954">ConstraintSet::qddot_y</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00955">ConstraintSet::qddot_z</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00743">RigidBodyDynamics::SolveConstrainedSystemNullSpace()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00951">ConstraintSet::Y</a>, and <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00952">ConstraintSet::Z</a>.</p>
-
-</div>
-</div>
-<a id="gafbdff81ed0bc8636ee03b15e0681574e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gafbdff81ed0bc8636ee03b15e0681574e">&#9670;&nbsp;</a></span>ForwardDynamicsConstraintsRangeSpaceSparse()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RBDL_DLLAPI void ForwardDynamicsConstraintsRangeSpaceSparse </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::ForwardDynamicsConstraintsNullSpace </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -2017,13 +1895,19 @@ Baumgarte Stabilization</h2>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;&#160;</td>
-          <td class="paramname"><em>QDDot</em>, </td>
+          <td class="paramname"><em>QDDotOutput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_kinematics</em> = <code>true</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *&#160;</td>
-          <td class="paramname"><em>f_ext</em>&#160;</td>
+          <td class="paramname"><em>f_ext</em> = <code>NULL</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2033,20 +1917,80 @@ Baumgarte Stabilization</h2>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01094">1094</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00961">ConstraintSet::a</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00908">ConstraintSet::C</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00861">RigidBodyDynamics::CalcConstrainedSystemVariables()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00897">ConstraintSet::force</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00910">ConstraintSet::gamma</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00906">ConstraintSet::H</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00959">ConstraintSet::K</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, and <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00704">RigidBodyDynamics::SolveConstrainedSystemRangeSpaceSparse()</a>.</p>
-
 </div>
 </div>
-<a id="gaa54ca5500dacb8c4f51694132ede62fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa54ca5500dacb8c4f51694132ede62fc">&#9670;&nbsp;</a></span>ForwardDynamicsContactsKokkevis()</h2>
+<a id="gad1113b4f5c86027613b0ca11e8c2f006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad1113b4f5c86027613b0ca11e8c2f006">&#9670;&nbsp;</a></span>ForwardDynamicsConstraintsRangeSpaceSparse()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void ForwardDynamicsContactsKokkevis </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::ForwardDynamicsConstraintsRangeSpaceSparse </td>
+          <td>(</td>
+          <td class="paramtype">Model &amp;&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;&#160;</td>
+          <td class="paramname"><em>Q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;&#160;</td>
+          <td class="paramname"><em>QDot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;&#160;</td>
+          <td class="paramname"><em>Tau</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>CS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a2cf580002219c9abf187ceb3d4021785">Math::VectorNd</a> &amp;&#160;</td>
+          <td class="paramname"><em>QDDotOutput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_kinematics</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *&#160;</td>
+          <td class="paramname"><em>f_ext</em> = <code>NULL</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad8c4672f2fb3e7e43626a2029070730d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad8c4672f2fb3e7e43626a2029070730d">&#9670;&nbsp;</a></span>ForwardDynamicsContactsKokkevis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::ForwardDynamicsContactsKokkevis </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -2110,10 +2054,6 @@ Baumgarte Stabilization</h2>
 <dd>
 This function supports only contact constraints.</dd></dl>
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000001">Todo:</a></b></dt><dd>Allow for external forces </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01539">1539</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00961">ConstraintSet::a</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00988">ConstraintSet::cache</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00883">ConstraintSet::constraints</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00885">ConstraintSet::contactConstraints</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00969">ConstraintSet::f_ext_constraints</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00967">ConstraintSet::f_t</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00897">ConstraintSet::force</a>, <a class="el" href="../../de/d3c/_dynamics_8cc_source.html#l00315">RigidBodyDynamics::ForwardDynamics()</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01401">RigidBodyDynamics::ForwardDynamicsAccelerationDeltas()</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01234">RigidBodyDynamics::ForwardDynamicsApplyConstraintForces()</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l02034">RigidBodyDynamics::GetMovableBodyId()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00959">ConstraintSet::K</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, <a class="el" href="../../d1/d49/rbdl__mathutils_8h_source.html#l00030">LinearSolverColPivHouseholderQR</a>, <a class="el" href="../../d1/d49/rbdl__mathutils_8h_source.html#l00031">LinearSolverHouseholderQR</a>, <a class="el" href="../../d1/d49/rbdl__mathutils_8h_source.html#l00029">LinearSolverPartialPivLU</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00971">ConstraintSet::point_accel_0</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00965">ConstraintSet::QDDot_0</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00963">ConstraintSet::QDDot_t</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00849">ConstraintSet::size()</a>, and <a class="el" href="../../d4/de5/_kinematics_8cc_source.html#l00080">RigidBodyDynamics::UpdateKinematicsCustom()</a>.</p>
 
 </div>
 </div>
@@ -2482,14 +2422,14 @@ This function supports only contact constraints.</dd></dl>
 
 </div>
 </div>
-<a id="gaef2695e4f2263fedb8918976f0e1885f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaef2695e4f2263fedb8918976f0e1885f">&#9670;&nbsp;</a></span>InverseDynamicsConstraints()</h2>
+<a id="ga662a48c9555c47269a992fca0150fdc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga662a48c9555c47269a992fca0150fdc3">&#9670;&nbsp;</a></span>InverseDynamicsConstraints()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void InverseDynamicsConstraints </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::InverseDynamicsConstraints </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -2533,6 +2473,12 @@ This function supports only contact constraints.</dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_kinematics</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *&#160;</td>
           <td class="paramname"><em>f_ext</em> = <code>NULL</code>&#160;</td>
         </tr>
@@ -2547,11 +2493,11 @@ This function supports only contact constraints.</dd></dl>
 <p>An inverse-dynamics operator that can be applied to fully-actuated constrained systems. </p>
 <dl class="section user"><dt></dt><dd><b>Important</b><ol type="1">
 <li>Set the actuated degrees-of-freedom using <a class="el" href="../../d3/d7d/group__constraints__group.html#ga5a265452de51452ad8a9c88613d00eaf" title="Initializes and allocates memory needed for InverseDynamicsConstraints and InverseDynamicsConstraints...">RigidBodyDynamics::ConstraintSet::SetActuationMap</a> <b>prior</b> to calling this function.</li>
-<li>Use the function <a class="el" href="../../d3/d7d/group__constraints__group.html#ga353897adce77ffa6e8c29f2c7bde61bf" title="A method to evaluate if the constrained system is fully actuated.">RigidBodyDynamics::isConstrainedSystemFullyActuated</a> to determine if a system is fully actuated or not. </li>
+<li>Use the function <a class="el" href="../../d3/d7d/group__constraints__group.html#gac38bbd2d10d1e4cc32d9421f0faa0d02" title="A method to evaluate if the constrained system is fully actuated.">RigidBodyDynamics::isConstrainedSystemFullyActuated</a> to determine if a system is fully actuated or not. </li>
 </ol>
 </dd></dl>
 <dl class="section user"><dt></dt><dd>This function implements an inverse-dynamics operator defined by Koch (1) (described in Eqn. 5.20) that can be applied to fully-actuated constraint systems and will solve for a set of physically-consistent <img class="formulaInl" alt="$\ddot{q}$" src="../../form_6.png" width="8" height="14"/> and <img class="formulaInl" alt="$\ddot{tau}$" src="../../form_121.png" width="23" height="14"/> given a desired <img class="formulaInl" alt="$\ddot{q}^*$" src="../../form_70.png" width="12" height="15"/>. </dd></dl>
-<dl class="section user"><dt></dt><dd>To see test if a constrained system is fully actuated please use the function <a class="el" href="../../d3/d7d/group__constraints__group.html#ga353897adce77ffa6e8c29f2c7bde61bf" title="A method to evaluate if the constrained system is fully actuated.">RigidBodyDynamics::isConstrainedSystemFullyActuated</a>. If the constrained system is not fully actuated then the method <a class="el" href="../../d3/d7d/group__constraints__group.html#ga09a585726610f741ea111314400e8571" title="A relaxed inverse-dynamics operator that can be applied to under-actuated or fully-actuated constrain...">RigidBodyDynamics::InverseDynamicsConstraintsRelaxed</a> must be used instead. </dd></dl>
+<dl class="section user"><dt></dt><dd>To see test if a constrained system is fully actuated please use the function <a class="el" href="../../d3/d7d/group__constraints__group.html#gac38bbd2d10d1e4cc32d9421f0faa0d02" title="A method to evaluate if the constrained system is fully actuated.">RigidBodyDynamics::isConstrainedSystemFullyActuated</a>. If the constrained system is not fully actuated then the method <a class="el" href="../../d3/d7d/group__constraints__group.html#ga401aa236a2126d384eb76a5d7756e220" title="A relaxed inverse-dynamics operator that can be applied to under-actuated or fully-actuated constrain...">RigidBodyDynamics::InverseDynamicsConstraintsRelaxed</a> must be used instead. </dd></dl>
 <dl class="section user"><dt></dt><dd>For a detailed explanation of the systems which cause this method to fail please read the text following Eqn. 5.20 in Koch's thesis, and the example that is given in Sec. 3 on pg 66. A brief summary is presented below. </dd></dl>
 <dl class="section user"><dt></dt><dd>To begin,the generalized accelerations are partitioned into actuated parts <img class="formulaInl" alt="$u$" src="../../form_122.png" width="11" height="8"/> and unactuated parts <img class="formulaInl" alt="$v$" src="../../form_123.png" width="9" height="8"/> <p class="formulaDsp">
 <img class="formulaDsp" alt="\[ u = S \ddot{q} \]" src="../../form_124.png" width="47" height="15"/>
@@ -2593,25 +2539,23 @@ This function supports only contact constraints.</dd></dl>
     <tr><td class="paramname">CS</td><td>Structure that contains information about the set of kinematic constraints. Note that the 'force' vector is appropriately updated after this function is called so that it contains the Lagrange multipliers.</td></tr>
     <tr><td class="paramname">QDDotOutput</td><td>N-element vector of generalized accelerations which satisfy the kinematic constraints ( <img class="formulaInl" alt="$\ddot{q}$" src="../../form_6.png" width="8" height="14"/> in the above equation) </td></tr>
     <tr><td class="paramname">TauOutput</td><td>N-element vector of generalized forces which satisfy the the equations of motion for this constrained system. </td></tr>
+    <tr><td class="paramname">update_kinematics</td><td>whether the kinematics of the model should be updated from Q. <br  />
+ </td></tr>
     <tr><td class="paramname">f_ext</td><td>External forces acting on the body in base coordinates (optional, defaults to NULL) </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01775">1775</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00908">ConstraintSet::C</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00861">RigidBodyDynamics::CalcConstrainedSystemVariables()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00936">ConstraintSet::Fll</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00936">ConstraintSet::Flr</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00897">ConstraintSet::force</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00936">ConstraintSet::Ful</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00936">ConstraintSet::Fur</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00910">ConstraintSet::gamma</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00939">ConstraintSet::GTl</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00939">ConstraintSet::GTu</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00906">ConstraintSet::H</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00864">ConstraintSet::name</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00925">ConstraintSet::P</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00923">ConstraintSet::S</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l02003">RigidBodyDynamics::SolveLinearSystem()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00932">ConstraintSet::u</a>, and <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00933">ConstraintSet::v</a>.</p>
-
 </div>
 </div>
-<a id="ga09a585726610f741ea111314400e8571"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga09a585726610f741ea111314400e8571">&#9670;&nbsp;</a></span>InverseDynamicsConstraintsRelaxed()</h2>
+<a id="ga401aa236a2126d384eb76a5d7756e220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga401aa236a2126d384eb76a5d7756e220">&#9670;&nbsp;</a></span>InverseDynamicsConstraintsRelaxed()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void InverseDynamicsConstraintsRelaxed </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::InverseDynamicsConstraintsRelaxed </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -2655,6 +2599,12 @@ This function supports only contact constraints.</dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_kinematics</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *&#160;</td>
           <td class="paramname"><em>f_ext</em> = <code>NULL</code>&#160;</td>
         </tr>
@@ -2674,7 +2624,7 @@ This function supports only contact constraints.</dd></dl>
  s.t. <p class="formulaDsp">
 <img class="formulaDsp" alt="\[ G \ddot{q} = \gamma. \]" src="../../form_66.png" width="53" height="15"/>
 </p>
- In contrast to the <a class="el" href="../../d3/d7d/group__constraints__group.html#gaef2695e4f2263fedb8918976f0e1885f" title="An inverse-dynamics operator that can be applied to fully-actuated constrained systems.">RigidBodyDynamics::InverseDynamicsConstraints</a> method, this method can work with underactuated systems. Mathematically this method does not depend on <p class="formulaDsp">
+ In contrast to the <a class="el" href="../../d3/d7d/group__constraints__group.html#ga662a48c9555c47269a992fca0150fdc3" title="An inverse-dynamics operator that can be applied to fully-actuated constrained systems.">RigidBodyDynamics::InverseDynamicsConstraints</a> method, this method can work with underactuated systems. Mathematically this method does not depend on <p class="formulaDsp">
 <img class="formulaDsp" alt="\[ \text{rank}(GP^T) &lt; n-n_a \]" src="../../form_67.png" width="138" height="20"/>
 </p>
  where <img class="formulaInl" alt="$n$" src="../../form_60.png" width="11" height="8"/> is the number of degrees of freedom and <img class="formulaInl" alt="$n_a$" src="../../form_68.png" width="17" height="11"/> is the number of actuated degrees of freedom. </dd></dl>
@@ -2687,7 +2637,7 @@ This function supports only contact constraints.</dd></dl>
 <p>To solve the above constrained minimization problem we take the derivative of the above system of equations w.r.t. <img class="formulaInl" alt="$\ddot{q}$" src="../../form_6.png" width="8" height="14"/> and <img class="formulaInl" alt="$\lambda$" src="../../form_35.png" width="9" height="12"/> set the result to zero and solve. This results in the KKT system </p><p class="formulaDsp">
 <img class="formulaDsp" alt="\[ \left( \begin{array}{cc} H+K &amp; G^T \\ G &amp; 0 \end{array} \right) \left( \begin{array}{c} \ddot{q} \\ -\lambda \end{array} \right) =\left( \begin{array}{c} (S^T W S)x - C\\ \gamma \end{array} \right). \]" src="../../form_78.png" width="335" height="38"/>
 </p>
-<p> This system of linear equations is not solved directly, but instead the null-space formulation presented in Sec. 2.5 of Koch as it is much faster. As with the <a class="el" href="../../d3/d7d/group__constraints__group.html#gaef2695e4f2263fedb8918976f0e1885f" title="An inverse-dynamics operator that can be applied to fully-actuated constrained systems.">RigidBodyDynamics::InverseDynamicsConstraints</a> method the matrices <img class="formulaInl" alt="$S$" src="../../form_79.png" width="11" height="12"/> and <img class="formulaInl" alt="$P$" src="../../form_80.png" width="12" height="12"/> select the actuated and unactuated parts of </p><p class="formulaDsp">
+<p> This system of linear equations is not solved directly, but instead the null-space formulation presented in Sec. 2.5 of Koch as it is much faster. As with the <a class="el" href="../../d3/d7d/group__constraints__group.html#ga662a48c9555c47269a992fca0150fdc3" title="An inverse-dynamics operator that can be applied to fully-actuated constrained systems.">RigidBodyDynamics::InverseDynamicsConstraints</a> method the matrices <img class="formulaInl" alt="$S$" src="../../form_79.png" width="11" height="12"/> and <img class="formulaInl" alt="$P$" src="../../form_80.png" width="12" height="12"/> select the actuated and unactuated parts of </p><p class="formulaDsp">
 <img class="formulaDsp" alt="\[\ddot{q} = S^T u + P^T v \]" src="../../form_81.png" width="104" height="18"/>
 </p>
 <p>, and </p><p class="formulaDsp">
@@ -2759,14 +2709,12 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
     <tr><td class="paramname">QDDotOutput</td><td>N-element vector of generalized accelerations which satisfy the kinematic constraints ( <img class="formulaInl" alt="$\ddot{q}$" src="../../form_6.png" width="8" height="14"/> in the above equation) </td></tr>
     <tr><td class="paramname">TauOutput</td><td>N-element vector of generalized forces which satisfy the the equations of motion for this constrained system. <br  />
  </td></tr>
+    <tr><td class="paramname">update_kinematics</td><td>whether the kinematics of the model should be updated from Q. <br  />
+ </td></tr>
     <tr><td class="paramname">f_ext</td><td>External forces acting on the body in base coordinates (optional, defaults to NULL) </td></tr>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01860">1860</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00908">ConstraintSet::C</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00861">RigidBodyDynamics::CalcConstrainedSystemVariables()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00935">ConstraintSet::F</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00897">ConstraintSet::force</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00940">ConstraintSet::g</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00910">ConstraintSet::gamma</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00938">ConstraintSet::GT</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00946">ConstraintSet::GT_qr</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00949">ConstraintSet::GT_qr_Q</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00906">ConstraintSet::H</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00857">ConstraintSet::linear_solver</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00864">ConstraintSet::name</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00925">ConstraintSet::P</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00942">ConstraintSet::py</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00943">ConstraintSet::pz</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00953">ConstraintSet::R</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00941">ConstraintSet::Ru</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00923">ConstraintSet::S</a>, <a class="el" href="../../da/d91/_constraints_8cc_source.html#l02003">RigidBodyDynamics::SolveLinearSystem()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00932">ConstraintSet::u</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00933">ConstraintSet::v</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00928">ConstraintSet::W</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00929">ConstraintSet::Winv</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00930">ConstraintSet::WinvSC</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00951">ConstraintSet::Y</a>, and <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00952">ConstraintSet::Z</a>.</p>
 
 </div>
 </div>
@@ -2805,14 +2753,14 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 </div>
 </div>
-<a id="ga353897adce77ffa6e8c29f2c7bde61bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga353897adce77ffa6e8c29f2c7bde61bf">&#9670;&nbsp;</a></span>isConstrainedSystemFullyActuated()</h2>
+<a id="gac38bbd2d10d1e4cc32d9421f0faa0d02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac38bbd2d10d1e4cc32d9421f0faa0d02">&#9670;&nbsp;</a></span>isConstrainedSystemFullyActuated()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool isConstrainedSystemFullyActuated </td>
+          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::isConstrainedSystemFullyActuated </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -2838,6 +2786,12 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>update_kinematics</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">std::vector&lt; <a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#a3e84ee221851d9f8b98a4f729f0f0ca2">Math::SpatialVector</a> &gt; *&#160;</td>
           <td class="paramname"><em>f_ext</em> = <code>NULL</code>&#160;</td>
         </tr>
@@ -2850,7 +2804,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 </div><div class="memdoc">
 
 <p>A method to evaluate if the constrained system is fully actuated. </p>
-<dl class="section user"><dt></dt><dd>This method will evaluate the rank of <img class="formulaInl" alt="$(GP^T)$" src="../../form_139.png" width="44" height="18"/> in order to assess if the constrained system is fully actuated or is under actuated. If the system is fully actuated the exact method <a class="el" href="../../d3/d7d/group__constraints__group.html#gaef2695e4f2263fedb8918976f0e1885f" title="An inverse-dynamics operator that can be applied to fully-actuated constrained systems.">RigidBodyDynamics::InverseDynamicsConstraints</a> can be used, otherwise only relaxed method <a class="el" href="../../d3/d7d/group__constraints__group.html#ga09a585726610f741ea111314400e8571" title="A relaxed inverse-dynamics operator that can be applied to under-actuated or fully-actuated constrain...">RigidBodyDynamics::InverseDynamicsConstraintsRelaxed</a> can be used.</dd></dl>
+<dl class="section user"><dt></dt><dd>This method will evaluate the rank of <img class="formulaInl" alt="$(GP^T)$" src="../../form_139.png" width="44" height="18"/> in order to assess if the constrained system is fully actuated or is under actuated. If the system is fully actuated the exact method <a class="el" href="../../d3/d7d/group__constraints__group.html#ga662a48c9555c47269a992fca0150fdc3" title="An inverse-dynamics operator that can be applied to fully-actuated constrained systems.">RigidBodyDynamics::InverseDynamicsConstraints</a> can be used, otherwise only relaxed method <a class="el" href="../../d3/d7d/group__constraints__group.html#ga401aa236a2126d384eb76a5d7756e220" title="A relaxed inverse-dynamics operator that can be applied to under-actuated or fully-actuated constrain...">RigidBodyDynamics::InverseDynamicsConstraintsRelaxed</a> can be used.</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>This method uses a relatively slow but accurate method to evaluate the rank.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -2858,14 +2812,12 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
     <tr><td class="paramname">Q</td><td>N-element vector of generalized positions </td></tr>
     <tr><td class="paramname">QDot</td><td>N-element vector of generalized velocities </td></tr>
     <tr><td class="paramname">CS</td><td>Structure that contains information about the set of kinematic constraints. </td></tr>
+    <tr><td class="paramname">update_kinematics</td><td>whether the kinematics of the model should be updated from Q. <br  />
+ </td></tr>
     <tr><td class="paramname">f_ext</td><td>External forces acting on the body in base coordinates (optional, defaults to NULL) </td></tr>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l01736">1736</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00861">RigidBodyDynamics::CalcConstrainedSystemVariables()</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00912">ConstraintSet::G</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00950">ConstraintSet::GPT</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00947">ConstraintSet::GPT_full_qr</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00906">ConstraintSet::H</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00864">ConstraintSet::name</a>, <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00925">ConstraintSet::P</a>, and <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00923">ConstraintSet::S</a>.</p>
 
 </div>
 </div>
@@ -2896,7 +2848,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 </div><div class="memdoc">
 
 <p>Initializes and allocates memory needed for InverseDynamicsConstraints and InverseDynamicsConstraintsRelaxed. </p>
-<p>This function allocates the temporary vectors and matrices needed for the <a class="el" href="../../d3/d7d/group__constraints__group.html#gaef2695e4f2263fedb8918976f0e1885f" title="An inverse-dynamics operator that can be applied to fully-actuated constrained systems.">RigidBodyDynamics::InverseDynamicsConstraints</a> and <a class="el" href="../../d3/d7d/group__constraints__group.html#ga09a585726610f741ea111314400e8571" title="A relaxed inverse-dynamics operator that can be applied to under-actuated or fully-actuated constrain...">RigidBodyDynamics::InverseDynamicsConstraintsRelaxed</a> methods. In addition, the constant matrices S and P are set here. This function needs to be called once before calling either <a class="el" href="../../d3/d7d/group__constraints__group.html#gaef2695e4f2263fedb8918976f0e1885f" title="An inverse-dynamics operator that can be applied to fully-actuated constrained systems.">RigidBodyDynamics::InverseDynamicsConstraints</a> or <a class="el" href="../../d3/d7d/group__constraints__group.html#ga09a585726610f741ea111314400e8571" title="A relaxed inverse-dynamics operator that can be applied to under-actuated or fully-actuated constrain...">RigidBodyDynamics::InverseDynamicsConstraintsRelaxed</a>. It does not ever need be called again, unless the actuated degrees of freedom change, or the constraint set changes.</p>
+<p>This function allocates the temporary vectors and matrices needed for the <a class="el" href="../../d3/d7d/group__constraints__group.html#ga662a48c9555c47269a992fca0150fdc3" title="An inverse-dynamics operator that can be applied to fully-actuated constrained systems.">RigidBodyDynamics::InverseDynamicsConstraints</a> and <a class="el" href="../../d3/d7d/group__constraints__group.html#ga401aa236a2126d384eb76a5d7756e220" title="A relaxed inverse-dynamics operator that can be applied to under-actuated or fully-actuated constrain...">RigidBodyDynamics::InverseDynamicsConstraintsRelaxed</a> methods. In addition, the constant matrices S and P are set here. This function needs to be called once before calling either <a class="el" href="../../d3/d7d/group__constraints__group.html#ga662a48c9555c47269a992fca0150fdc3" title="An inverse-dynamics operator that can be applied to fully-actuated constrained systems.">RigidBodyDynamics::InverseDynamicsConstraints</a> or <a class="el" href="../../d3/d7d/group__constraints__group.html#ga401aa236a2126d384eb76a5d7756e220" title="A relaxed inverse-dynamics operator that can be applied to under-actuated or fully-actuated constrain...">RigidBodyDynamics::InverseDynamicsConstraintsRelaxed</a>. It does not ever need be called again, unless the actuated degrees of freedom change, or the constraint set changes.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">model</td><td>rigid body model <br  />
@@ -2905,8 +2857,6 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00485">485</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
 
 </div>
 </div>
@@ -2969,14 +2919,14 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 </div>
 </div>
-<a id="ga4e7f3d41d498f74389c6376a4ff9a9b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga4e7f3d41d498f74389c6376a4ff9a9b3">&#9670;&nbsp;</a></span>SolveConstrainedSystemDirect()</h2>
+<a id="ga606469812dd551edbe9236f6bab0a5eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga606469812dd551edbe9236f6bab0a5eb">&#9670;&nbsp;</a></span>SolveConstrainedSystemDirect()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void SolveConstrainedSystemDirect </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::SolveConstrainedSystemDirect </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;&#160;</td>
           <td class="paramname"><em>H</em>, </td>
@@ -3054,20 +3004,16 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00657">657</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d1/d49/rbdl__mathutils_8h_source.html#l00030">LinearSolverColPivHouseholderQR</a>, <a class="el" href="../../d1/d49/rbdl__mathutils_8h_source.html#l00031">LinearSolverHouseholderQR</a>, and <a class="el" href="../../d1/d49/rbdl__mathutils_8h_source.html#l00029">LinearSolverPartialPivLU</a>.</p>
-
 </div>
 </div>
-<a id="ga291125f9f37ab712f624974378ca8384"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga291125f9f37ab712f624974378ca8384">&#9670;&nbsp;</a></span>SolveConstrainedSystemNullSpace()</h2>
+<a id="gab18f841adb5eb14a42a7bff4473bb9b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab18f841adb5eb14a42a7bff4473bb9b1">&#9670;&nbsp;</a></span>SolveConstrainedSystemNullSpace()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void SolveConstrainedSystemNullSpace </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::SolveConstrainedSystemNullSpace </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d2/da0/namespace_rigid_body_dynamics_1_1_math.html#aa98b9390985e1e5ec247ec79d50dffe0">Math::MatrixNd</a> &amp;&#160;</td>
           <td class="paramname"><em>H</em>, </td>
@@ -3159,20 +3105,16 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00743">743</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d1/d49/rbdl__mathutils_8h_source.html#l00030">LinearSolverColPivHouseholderQR</a>, <a class="el" href="../../d1/d49/rbdl__mathutils_8h_source.html#l00031">LinearSolverHouseholderQR</a>, and <a class="el" href="../../d1/d49/rbdl__mathutils_8h_source.html#l00029">LinearSolverPartialPivLU</a>.</p>
-
 </div>
 </div>
-<a id="gac634d60a1857213ec7289a76f8bd280a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac634d60a1857213ec7289a76f8bd280a">&#9670;&nbsp;</a></span>SolveConstrainedSystemRangeSpaceSparse()</h2>
+<a id="gac63f755a2f0b2f1946d6c30e70fca25f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac63f755a2f0b2f1946d6c30e70fca25f">&#9670;&nbsp;</a></span>SolveConstrainedSystemRangeSpaceSparse()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void SolveConstrainedSystemRangeSpaceSparse </td>
+          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::SolveConstrainedSystemRangeSpaceSparse </td>
           <td>(</td>
           <td class="paramtype">Model &amp;&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -3257,10 +3199,6 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../da/d91/_constraints_8cc_source.html#l00704">704</a> of file <a class="el" href="../../da/d91/_constraints_8cc_source.html">Constraints.cc</a>.</p>
-
-<p class="reference">References <a class="el" href="../../df/d59/rbdl__mathutils_8cc_source.html#l00257">RigidBodyDynamics::Math::SparseFactorizeLTL()</a>, <a class="el" href="../../df/d59/rbdl__mathutils_8cc_source.html#l00307">RigidBodyDynamics::Math::SparseSolveLTx()</a>, and <a class="el" href="../../df/d59/rbdl__mathutils_8cc_source.html#l00296">RigidBodyDynamics::Math::SparseSolveLx()</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -3296,7 +3234,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the accelerations of due to the test forces. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00961">961</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00963">963</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3366,7 +3304,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00988">988</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00990">990</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3432,7 +3370,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the acceleration due to the test force. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00976">976</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00978">978</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3450,7 +3388,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace when applying constraint forces. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00984">984</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00986">986</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3468,7 +3406,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the inertia when applying constraint forces. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00980">980</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00982">982</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3484,7 +3422,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00986">986</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00988">988</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3502,7 +3440,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the bias force due to the test force. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00974">974</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00976">976</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3518,7 +3456,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00977">977</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00979">979</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3536,7 +3474,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace when applying constraint forces. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00982">982</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00984">984</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3604,7 +3542,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the actual spatial forces. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00969">969</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00971">971</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3622,7 +3560,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the test forces. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00967">967</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00969">969</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3771,7 +3709,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00950">950</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00952">952</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3787,7 +3725,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00947">947</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00948">948</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3821,7 +3759,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the QR decomposition of the null-space method. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00946">946</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00947">947</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3837,7 +3775,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00949">949</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00951">951</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -3939,7 +3877,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the Inverse Articulated-Body Inertia. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00959">959</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00961">961</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -4041,7 +3979,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the default point accelerations. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00971">971</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00973">973</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -4091,7 +4029,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the default accelerations. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00965">965</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00967">967</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -4109,7 +4047,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 
 <p>Workspace for the test accelerations. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00963">963</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00965">965</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -4125,7 +4063,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00954">954</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00956">956</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -4141,7 +4079,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00955">955</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00957">957</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -4157,7 +4095,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00953">953</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00955">955</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -4339,7 +4277,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00951">951</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00953">953</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -4355,7 +4293,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00952">952</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/_constraints_8h_source.html#l00954">954</a> of file <a class="el" href="../../da/dc9/_constraints_8h_source.html">Constraints.h</a>.</p>
 
 </div>
 </div>
@@ -4364,7 +4302,7 @@ The sign of <img class="formulaInl" alt="$\gamma$" src="../../form_5.png" width=
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 18 2021 17:10:18 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Sep 23 2021 12:29:42 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

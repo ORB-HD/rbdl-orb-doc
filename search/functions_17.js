@@ -1,9 +1,4 @@
 var searchData=
 [
-  ['_7ebody_1467',['~Body',['../da/dd2/struct_rigid_body_dynamics_1_1_body.html#a8ef82b03d0d15958a38d2564c1a85e43',1,'RigidBodyDynamics::Body']]],
-  ['_7econstraint_1468',['~Constraint',['../d5/d92/class_rigid_body_dynamics_1_1_constraint.html#a65f2b59f5bc1435bf439482d885b0c0a',1,'RigidBodyDynamics::Constraint']]],
-  ['_7ecustomjoint_1469',['~CustomJoint',['../d9/dcf/struct_rigid_body_dynamics_1_1_custom_joint.html#a1ca6916ffa53b9623990d14cd9a88792',1,'RigidBodyDynamics::CustomJoint']]],
-  ['_7efunction_5f_1470',['~Function_',['../d8/dd0/class_rigid_body_dynamics_1_1_addons_1_1_geometry_1_1_function__.html#ad88bd2d6bf34099f7ebb3e6d40f4249e',1,'RigidBodyDynamics::Addons::Geometry::Function_']]],
-  ['_7ejoint_1471',['~Joint',['../d0/d8f/struct_rigid_body_dynamics_1_1_joint.html#a2e6c8ce16a425ce67bcc08a11a3523ae',1,'RigidBodyDynamics::Joint']]],
-  ['_7eloggingguard_1472',['~LoggingGuard',['../da/dd1/class_logging_guard.html#a7030f9a09f724100fa23027a1f38ec49',1,'LoggingGuard']]]
+  ['zero_1521',['Zero',['../d5/d63/class_r_b_d_l_casadi_math_1_1_m_x___xd__dynamic.html#af023c717ef64daaefefd738cca448b26',1,'RBDLCasadiMath::MX_Xd_dynamic::Zero()'],['../d8/d33/class_r_b_d_l_casadi_math_1_1_m_x___xd__static.html#a920a1edfb3ae8eed92978217cd071ed9',1,'RBDLCasadiMath::MX_Xd_static::Zero()']]]
 ];

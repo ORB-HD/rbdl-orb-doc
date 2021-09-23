@@ -292,13 +292,14 @@ Static Public Member Functions</h2></td></tr>
 <img src="../../fig_MuscleAddon_MuscleFunctionFactory_fcCosPhiCurve.png" alt=""/>
 </div>
 <p><b>Computational Costs</b> </p><pre class="fragment">~4,100 flops
-</pre><p><b>Example:</b> </p><div class="fragment"><div class="line"><span class="keywordtype">double</span> cosPhi0 = cos( (80.0/90.0)*SimTK::Pi/2);</div>
+</pre><p><b>Example:</b> </p><div class="fragment"><div class="line"><span class="keywordtype">double</span> cosPhi0 = <a class="code" href="../../db/df1/_m_x___xd__utils_8h.html#a8215b7b86388a677af7cd4f12cc32a67">cos</a>( (80.0/90.0)*SimTK::Pi/2);</div>
 <div class="line"><span class="keywordtype">double</span> kiso  = -1.2/(cosPhi0);</div>
 <div class="line"><span class="keywordtype">double</span> c   = 0.5;</div>
 <div class="line"> </div>
 <div class="line">SmoothSegmentedFunction fiberCECosPhiCurve = <a class="code" href="../../de/dd7/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_muscle_function_factory.html#aea5c06a0cf1af53ad1a51c7c0fe8c254">MuscleFunctionFactory::</a></div>
 <div class="line"><a class="code" href="../../de/dd7/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_muscle_function_factory.html#aea5c06a0cf1af53ad1a51c7c0fe8c254">createFiberCompressiveForceCosPennationCurve</a>(cosPhi0,kiso,c,<span class="stringliteral">&quot;test&quot;</span>);</div>
 <div class="line">fiberCEPhiCurve.printCurveToFile();</div>
+<div class="ttc" id="a_m_x___xd__utils_8h_html_a8215b7b86388a677af7cd4f12cc32a67"><div class="ttname"><a href="../../db/df1/_m_x___xd__utils_8h.html#a8215b7b86388a677af7cd4f12cc32a67">std::cos</a></div><div class="ttdeci">MX_Xd_scalar cos(const MX_Xd_scalar &amp;x)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/df1/_m_x___xd__utils_8h_source.html#l00345">MX_Xd_utils.h:345</a></div></div>
 <div class="ttc" id="aclass_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_muscle_function_factory_html_aea5c06a0cf1af53ad1a51c7c0fe8c254"><div class="ttname"><a href="../../de/dd7/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_muscle_function_factory.html#aea5c06a0cf1af53ad1a51c7c0fe8c254">RigidBodyDynamics::Addons::Muscle::MuscleFunctionFactory::createFiberCompressiveForceCosPennationCurve</a></div><div class="ttdeci">static void createFiberCompressiveForceCosPennationCurve(double cosPhi0, double kiso, double curviness, const std::string &amp;curveName, RigidBodyDynamics::Addons::Geometry::SmoothSegmentedFunction &amp;smoothSegmentedFunctionToUpdate)</div></div>
 </div><!-- fragment --> 
 </div>
@@ -882,7 +883,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d16/namespace_rigid_body_dynamics.html">RigidBodyDynamics</a></li><li class="navelem"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html">Addons</a></li><li class="navelem"><a class="el" href="../../dd/d32/namespace_rigid_body_dynamics_1_1_addons_1_1_muscle.html">Muscle</a></li><li class="navelem"><a class="el" href="../../de/dd7/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_muscle_function_factory.html">MuscleFunctionFactory</a></li>
-    <li class="footer">Generated on Tue May 18 2021 17:10:19 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Sep 23 2021 12:29:42 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

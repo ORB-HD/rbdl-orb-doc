@@ -98,63 +98,63 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a81abcf364eb280650dad7f60fbccf5d6"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a81abcf364eb280650dad7f60fbccf5d6">URDFReadFromFile</a> (const char *filename, Model *model, bool floating_base, bool verbose=false)</td></tr>
-<tr class="separator:a81abcf364eb280650dad7f60fbccf5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8d0b0202a7e40662ef21fdfb5f5bc29"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ad8d0b0202a7e40662ef21fdfb5f5bc29">URDFReadFromString</a> (const char *model_xml_string, Model *model, bool floating_base, bool verbose=false)</td></tr>
-<tr class="separator:ad8d0b0202a7e40662ef21fdfb5f5bc29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af01cd376f05076b855ad55a625d95065"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#af01cd376f05076b855ad55a625d95065">URDFReadFromFile</a> (const char *filename, Model *model, bool floating_base, bool verbose=false)</td></tr>
+<tr class="separator:af01cd376f05076b855ad55a625d95065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf3dd1c0bd35ef2da293cc77fb62c0dd"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#acf3dd1c0bd35ef2da293cc77fb62c0dd">URDFReadFromString</a> (const char *model_xml_string, Model *model, bool floating_base, bool verbose=false)</td></tr>
+<tr class="separator:acf3dd1c0bd35ef2da293cc77fb62c0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:ae342c89fd01cd5333a0530425311cc42"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ae342c89fd01cd5333a0530425311cc42">LuaModelReadFromFile</a> (const char *filename, Model *upd_model, bool verbose=false)</td></tr>
-<tr class="memdesc:ae342c89fd01cd5333a0530425311cc42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a model from a Lua file.  <a href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ae342c89fd01cd5333a0530425311cc42">More...</a><br /></td></tr>
-<tr class="separator:ae342c89fd01cd5333a0530425311cc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c62d2420c7d8ccb3a1104b14f952ebf"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a8c62d2420c7d8ccb3a1104b14f952ebf">LuaModelGetCoordinateNames</a> (const Model *model, std::vector&lt; std::string &gt; &amp;updGeneralizedPositionNames, std::vector&lt; std::string &gt; &amp;updGeneralizedVelocityNames, std::vector&lt; std::string &gt; &amp;updGeneralizedForceNames)</td></tr>
-<tr class="separator:a8c62d2420c7d8ccb3a1104b14f952ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5dd5a379efc5535bb7e3406fe110314"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ac5dd5a379efc5535bb7e3406fe110314">LuaModelGetConstraintSetNames</a> (const char *filename)</td></tr>
-<tr class="memdesc:ac5dd5a379efc5535bb7e3406fe110314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a model file and returns the names of all constraint sets.  <a href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ac5dd5a379efc5535bb7e3406fe110314">More...</a><br /></td></tr>
-<tr class="separator:ac5dd5a379efc5535bb7e3406fe110314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af42413924318b27fdac6a769ceee98ed"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#af42413924318b27fdac6a769ceee98ed">LuaModelGetConstraintSetPhases</a> (const char *filename, const std::vector&lt; std::string &gt; &amp;constraint_set_names, std::vector&lt; unsigned int &gt; &amp;constraint_set_phases)</td></tr>
-<tr class="separator:af42413924318b27fdac6a769ceee98ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74480cd44dfb4fdd563b2ea125a8e63f"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a74480cd44dfb4fdd563b2ea125a8e63f">LuaModelReadMotionCaptureMarkers</a> (const char *filename, const Model *model, std::vector&lt; <a class="el" href="../../d7/de0/struct_motion_capture_marker.html">MotionCaptureMarker</a> &gt; &amp;upd_marker_set, bool verbose=false)</td></tr>
-<tr class="separator:a74480cd44dfb4fdd563b2ea125a8e63f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cd81d2f7b3a5dc2d336a695d6080192"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a7cd81d2f7b3a5dc2d336a695d6080192">LuaModelReadPoints</a> (const char *filename, const Model *model, std::vector&lt; <a class="el" href="../../d8/dc8/struct_point.html">Point</a> &gt; &amp;upd_point_set, bool verbose=false)</td></tr>
-<tr class="separator:a7cd81d2f7b3a5dc2d336a695d6080192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aead6a98a937b77b059e2b3eb178bbf3f"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#aead6a98a937b77b059e2b3eb178bbf3f">LuaModelReadLocalFrames</a> (const char *filename, const Model *model, std::vector&lt; <a class="el" href="../../dd/d12/struct_local_frame.html">LocalFrame</a> &gt; &amp;upd_local_frame_set, bool verbose=false)</td></tr>
-<tr class="separator:aead6a98a937b77b059e2b3eb178bbf3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af27c7bad59a81c73592341fb00463e10"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#af27c7bad59a81c73592341fb00463e10">LuaModelReadFromFileWithConstraints</a> (const char *filename, Model *upd_model, std::vector&lt; <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &gt; &amp;constraint_sets, const std::vector&lt; std::string &gt; &amp;constraint_set_names, bool verbose=false)</td></tr>
-<tr class="memdesc:af27c7bad59a81c73592341fb00463e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a model and constraint sets from a Lua file.  <a href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#af27c7bad59a81c73592341fb00463e10">More...</a><br /></td></tr>
-<tr class="separator:af27c7bad59a81c73592341fb00463e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a10a02cce90a3d34ad86df5a3939322"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a3a10a02cce90a3d34ad86df5a3939322">LuaModelReadFromLuaState</a> (lua_State *L, Model *model, bool verbose=false)</td></tr>
-<tr class="memdesc:a3a10a02cce90a3d34ad86df5a3939322"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a model from a lua_State.  <a href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a3a10a02cce90a3d34ad86df5a3939322">More...</a><br /></td></tr>
-<tr class="separator:a3a10a02cce90a3d34ad86df5a3939322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa76f0d8597dfbcae79273cfa62b541de"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#aa76f0d8597dfbcae79273cfa62b541de">LuaModelReadHumanMetaData</a> (const char *filename, <a class="el" href="../../df/de7/struct_human_meta_data.html">HumanMetaData</a> &amp;human_meta_data, bool verbose=false)</td></tr>
-<tr class="separator:aa76f0d8597dfbcae79273cfa62b541de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4008193a7c607b851ded185286f583bb"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a4008193a7c607b851ded185286f583bb">LuaModelReadMillard2016TorqueMuscleSets</a> (const char *filename, const RigidBodyDynamics::Model *model, const <a class="el" href="../../df/de7/struct_human_meta_data.html">HumanMetaData</a> &amp;human_meta_data, std::vector&lt; <a class="el" href="../../d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle.html">RigidBodyDynamics::Addons::Muscle::Millard2016TorqueMuscle</a> &gt; &amp;updMtgSet, std::vector&lt; <a class="el" href="../../de/dbf/struct_millard2016_torque_muscle_config.html">Millard2016TorqueMuscleConfig</a> &gt; &amp;updMtgSetInfo, bool verbose=false)</td></tr>
-<tr class="separator:a4008193a7c607b851ded185286f583bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e4e36b54de9ae898e054042282051d4"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a1e4e36b54de9ae898e054042282051d4">LuaModelWriteModelHeaderEntries</a> (const char *header_file_name, const RigidBodyDynamics::Model &amp;model, bool append)</td></tr>
-<tr class="separator:a1e4e36b54de9ae898e054042282051d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af70f7efde54b98fde60447a854ae9d1b"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#af70f7efde54b98fde60447a854ae9d1b">LuaModelAddHeaderGuards</a> (const char *header_file_name)</td></tr>
-<tr class="separator:af70f7efde54b98fde60447a854ae9d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf382648601ca269efd8e637b0b644a7"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#acf382648601ca269efd8e637b0b644a7">LuaModelWritePointsHeaderEntries</a> (const char *header_file_name, const std::vector&lt; <a class="el" href="../../d8/dc8/struct_point.html">Point</a> &gt; &amp;point_set, bool append)</td></tr>
-<tr class="separator:acf382648601ca269efd8e637b0b644a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96db7724dde85c26df2bf360da80ac80"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a96db7724dde85c26df2bf360da80ac80">LuaModelWriteMotionCaptureMarkerHeaderEntries</a> (const char *header_file_name, const std::vector&lt; <a class="el" href="../../d7/de0/struct_motion_capture_marker.html">MotionCaptureMarker</a> &gt; &amp;marker_set, bool append)</td></tr>
-<tr class="separator:a96db7724dde85c26df2bf360da80ac80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb6bdb415e1f95d66f4425c722803af5"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#acb6bdb415e1f95d66f4425c722803af5">LuaModelWriteLocalFrameHeaderEntries</a> (const char *header_file_name, const std::vector&lt; <a class="el" href="../../dd/d12/struct_local_frame.html">LocalFrame</a> &gt; &amp;local_frame_set, bool append)</td></tr>
-<tr class="separator:acb6bdb415e1f95d66f4425c722803af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa04d1e1bb8b6f8f227cccf386eec7993"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#aa04d1e1bb8b6f8f227cccf386eec7993">LuaModelWriteConstraintSetHeaderEntries</a> (const char *header_file_name, const std::vector&lt; std::string &gt; &amp;constraint_set_names, const std::vector&lt; <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">RigidBodyDynamics::ConstraintSet</a> &gt; &amp;constraint_sets, bool append)</td></tr>
-<tr class="separator:aa04d1e1bb8b6f8f227cccf386eec7993"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb33e03bab0d2dd8aac497b0f3d1b4df"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#aeb33e03bab0d2dd8aac497b0f3d1b4df">LuaModelWriteConstraintSetPhaseHeaderEntries</a> (const char *header_file_name, const std::vector&lt; std::string &gt; &amp;constraint_set_names, const std::vector&lt; unsigned int &gt; &amp;constraint_phases, bool append)</td></tr>
-<tr class="separator:aeb33e03bab0d2dd8aac497b0f3d1b4df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57a34a54d120e4e5bc83adbb3db1f976"><td class="memItemLeft" align="right" valign="top">RBDL_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a57a34a54d120e4e5bc83adbb3db1f976">LuaModelWriteMillard2016TorqueMuscleHeaderEntries</a> (const char *header_file_name, const std::vector&lt; RigidBodyDynamics::Addons::Muscle ::Millard2016TorqueMuscle &gt; &amp;mtg_set, const std::vector&lt; <a class="el" href="../../de/dbf/struct_millard2016_torque_muscle_config.html">Millard2016TorqueMuscleConfig</a> &gt; &amp;mtg_set_info, bool append)</td></tr>
-<tr class="separator:a57a34a54d120e4e5bc83adbb3db1f976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a86252477fc65f2447343c1f477288"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ae2a86252477fc65f2447343c1f477288">LuaModelReadFromFile</a> (const char *filename, Model *upd_model, bool verbose=false)</td></tr>
+<tr class="memdesc:ae2a86252477fc65f2447343c1f477288"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a model from a Lua file.  <a href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ae2a86252477fc65f2447343c1f477288">More...</a><br /></td></tr>
+<tr class="separator:ae2a86252477fc65f2447343c1f477288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ef4ded9bddce53e54de8ee440d3f17"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a13ef4ded9bddce53e54de8ee440d3f17">LuaModelGetCoordinateNames</a> (const Model *model, std::vector&lt; std::string &gt; &amp;updGeneralizedPositionNames, std::vector&lt; std::string &gt; &amp;updGeneralizedVelocityNames, std::vector&lt; std::string &gt; &amp;updGeneralizedForceNames)</td></tr>
+<tr class="separator:a13ef4ded9bddce53e54de8ee440d3f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ca2c52502057347ebdee977c0d5783"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a23ca2c52502057347ebdee977c0d5783">LuaModelGetConstraintSetNames</a> (const char *filename)</td></tr>
+<tr class="memdesc:a23ca2c52502057347ebdee977c0d5783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a model file and returns the names of all constraint sets.  <a href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a23ca2c52502057347ebdee977c0d5783">More...</a><br /></td></tr>
+<tr class="separator:a23ca2c52502057347ebdee977c0d5783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb91a027ad27e9cac1342fa84d3a0035"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#afb91a027ad27e9cac1342fa84d3a0035">LuaModelGetConstraintSetPhases</a> (const char *filename, const std::vector&lt; std::string &gt; &amp;constraint_set_names, std::vector&lt; unsigned int &gt; &amp;constraint_set_phases)</td></tr>
+<tr class="separator:afb91a027ad27e9cac1342fa84d3a0035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3712b7edb2201d6bf8f13b659257a5b5"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a3712b7edb2201d6bf8f13b659257a5b5">LuaModelReadMotionCaptureMarkers</a> (const char *filename, const Model *model, std::vector&lt; <a class="el" href="../../d7/de0/struct_motion_capture_marker.html">MotionCaptureMarker</a> &gt; &amp;upd_marker_set, bool verbose=false)</td></tr>
+<tr class="separator:a3712b7edb2201d6bf8f13b659257a5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af53014ab3b06d4181c1ea24411d3fc11"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#af53014ab3b06d4181c1ea24411d3fc11">LuaModelReadPoints</a> (const char *filename, const Model *model, std::vector&lt; <a class="el" href="../../d8/dc8/struct_point.html">Point</a> &gt; &amp;upd_point_set, bool verbose=false)</td></tr>
+<tr class="separator:af53014ab3b06d4181c1ea24411d3fc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424eb6e04a3929ceb81c90ce7c5ad704"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a424eb6e04a3929ceb81c90ce7c5ad704">LuaModelReadLocalFrames</a> (const char *filename, const Model *model, std::vector&lt; <a class="el" href="../../dd/d12/struct_local_frame.html">LocalFrame</a> &gt; &amp;upd_local_frame_set, bool verbose=false)</td></tr>
+<tr class="separator:a424eb6e04a3929ceb81c90ce7c5ad704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00a51ebc2bb6559127c8c9d141598de1"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a00a51ebc2bb6559127c8c9d141598de1">LuaModelReadFromFileWithConstraints</a> (const char *filename, Model *upd_model, std::vector&lt; <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">ConstraintSet</a> &gt; &amp;constraint_sets, const std::vector&lt; std::string &gt; &amp;constraint_set_names, bool verbose=false)</td></tr>
+<tr class="memdesc:a00a51ebc2bb6559127c8c9d141598de1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a model and constraint sets from a Lua file.  <a href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a00a51ebc2bb6559127c8c9d141598de1">More...</a><br /></td></tr>
+<tr class="separator:a00a51ebc2bb6559127c8c9d141598de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8488b9b36f774cdddcc8f33e0e5f68fd"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a8488b9b36f774cdddcc8f33e0e5f68fd">LuaModelReadFromLuaState</a> (lua_State *L, Model *model, bool verbose=false)</td></tr>
+<tr class="memdesc:a8488b9b36f774cdddcc8f33e0e5f68fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a model from a lua_State.  <a href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a8488b9b36f774cdddcc8f33e0e5f68fd">More...</a><br /></td></tr>
+<tr class="separator:a8488b9b36f774cdddcc8f33e0e5f68fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fd49fd958421b3af25bcd1d82e807d7"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a3fd49fd958421b3af25bcd1d82e807d7">LuaModelReadHumanMetaData</a> (const char *filename, <a class="el" href="../../df/de7/struct_human_meta_data.html">HumanMetaData</a> &amp;human_meta_data, bool verbose=false)</td></tr>
+<tr class="separator:a3fd49fd958421b3af25bcd1d82e807d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e1328db0c992fb5d308e6777a48315"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a38e1328db0c992fb5d308e6777a48315">LuaModelReadMillard2016TorqueMuscleSets</a> (const char *filename, const RigidBodyDynamics::Model *model, const <a class="el" href="../../df/de7/struct_human_meta_data.html">HumanMetaData</a> &amp;human_meta_data, std::vector&lt; <a class="el" href="../../d1/d37/class_rigid_body_dynamics_1_1_addons_1_1_muscle_1_1_millard2016_torque_muscle.html">RigidBodyDynamics::Addons::Muscle::Millard2016TorqueMuscle</a> &gt; &amp;updMtgSet, std::vector&lt; <a class="el" href="../../de/dbf/struct_millard2016_torque_muscle_config.html">Millard2016TorqueMuscleConfig</a> &gt; &amp;updMtgSetInfo, bool verbose=false)</td></tr>
+<tr class="separator:a38e1328db0c992fb5d308e6777a48315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a879ca23ed2b0c64cd1b90a1c34410580"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a879ca23ed2b0c64cd1b90a1c34410580">LuaModelWriteModelHeaderEntries</a> (const char *header_file_name, const RigidBodyDynamics::Model &amp;model, bool append)</td></tr>
+<tr class="separator:a879ca23ed2b0c64cd1b90a1c34410580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52f01ce81e0323c5bcf5ac2247c383b0"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a52f01ce81e0323c5bcf5ac2247c383b0">LuaModelAddHeaderGuards</a> (const char *header_file_name)</td></tr>
+<tr class="separator:a52f01ce81e0323c5bcf5ac2247c383b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80097624ea3a12f9da3ed3ad8c22239e"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a80097624ea3a12f9da3ed3ad8c22239e">LuaModelWritePointsHeaderEntries</a> (const char *header_file_name, const std::vector&lt; <a class="el" href="../../d8/dc8/struct_point.html">Point</a> &gt; &amp;point_set, bool append)</td></tr>
+<tr class="separator:a80097624ea3a12f9da3ed3ad8c22239e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e424097abf5fc828d2bb39180b00406"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a7e424097abf5fc828d2bb39180b00406">LuaModelWriteMotionCaptureMarkerHeaderEntries</a> (const char *header_file_name, const std::vector&lt; <a class="el" href="../../d7/de0/struct_motion_capture_marker.html">MotionCaptureMarker</a> &gt; &amp;marker_set, bool append)</td></tr>
+<tr class="separator:a7e424097abf5fc828d2bb39180b00406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade78b2a4c17119e376dd74ca8f84581e"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ade78b2a4c17119e376dd74ca8f84581e">LuaModelWriteLocalFrameHeaderEntries</a> (const char *header_file_name, const std::vector&lt; <a class="el" href="../../dd/d12/struct_local_frame.html">LocalFrame</a> &gt; &amp;local_frame_set, bool append)</td></tr>
+<tr class="separator:ade78b2a4c17119e376dd74ca8f84581e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12fc3ae5f3ecf2d5b7e3cdbbd8c66e5f"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a12fc3ae5f3ecf2d5b7e3cdbbd8c66e5f">LuaModelWriteConstraintSetHeaderEntries</a> (const char *header_file_name, const std::vector&lt; std::string &gt; &amp;constraint_set_names, const std::vector&lt; <a class="el" href="../../d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html">RigidBodyDynamics::ConstraintSet</a> &gt; &amp;constraint_sets, bool append)</td></tr>
+<tr class="separator:a12fc3ae5f3ecf2d5b7e3cdbbd8c66e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa66d84c5acddcbe4bce3b05a3b453db3"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#aa66d84c5acddcbe4bce3b05a3b453db3">LuaModelWriteConstraintSetPhaseHeaderEntries</a> (const char *header_file_name, const std::vector&lt; std::string &gt; &amp;constraint_set_names, const std::vector&lt; unsigned int &gt; &amp;constraint_phases, bool append)</td></tr>
+<tr class="separator:aa66d84c5acddcbe4bce3b05a3b453db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329b788f5f43af0d4b1da56eff057b22"><td class="memItemLeft" align="right" valign="top">RBDL_ADDON_DLLAPI bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a329b788f5f43af0d4b1da56eff057b22">LuaModelWriteMillard2016TorqueMuscleHeaderEntries</a> (const char *header_file_name, const std::vector&lt; RigidBodyDynamics::Addons::Muscle ::Millard2016TorqueMuscle &gt; &amp;mtg_set, const std::vector&lt; <a class="el" href="../../de/dbf/struct_millard2016_torque_muscle_config.html">Millard2016TorqueMuscleConfig</a> &gt; &amp;mtg_set_info, bool append)</td></tr>
+<tr class="separator:a329b788f5f43af0d4b1da56eff057b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="af70f7efde54b98fde60447a854ae9d1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af70f7efde54b98fde60447a854ae9d1b">&#9670;&nbsp;</a></span>LuaModelAddHeaderGuards()</h2>
+<a id="a52f01ce81e0323c5bcf5ac2247c383b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52f01ce81e0323c5bcf5ac2247c383b0">&#9670;&nbsp;</a></span>LuaModelAddHeaderGuards()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelAddHeaderGuards </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelAddHeaderGuards </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>header_file_name</em></td><td>)</td>
@@ -172,14 +172,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac5dd5a379efc5535bb7e3406fe110314"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5dd5a379efc5535bb7e3406fe110314">&#9670;&nbsp;</a></span>LuaModelGetConstraintSetNames()</h2>
+<a id="a23ca2c52502057347ebdee977c0d5783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23ca2c52502057347ebdee977c0d5783">&#9670;&nbsp;</a></span>LuaModelGetConstraintSetNames()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI std::vector&lt;std::string&gt; RigidBodyDynamics::Addons::LuaModelGetConstraintSetNames </td>
+          <td class="memname">RBDL_ADDON_DLLAPI std::vector&lt;std::string&gt; RigidBodyDynamics::Addons::LuaModelGetConstraintSetNames </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em></td><td>)</td>
@@ -192,14 +192,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af42413924318b27fdac6a769ceee98ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af42413924318b27fdac6a769ceee98ed">&#9670;&nbsp;</a></span>LuaModelGetConstraintSetPhases()</h2>
+<a id="afb91a027ad27e9cac1342fa84d3a0035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb91a027ad27e9cac1342fa84d3a0035">&#9670;&nbsp;</a></span>LuaModelGetConstraintSetPhases()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelGetConstraintSetPhases </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelGetConstraintSetPhases </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
@@ -226,14 +226,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c62d2420c7d8ccb3a1104b14f952ebf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c62d2420c7d8ccb3a1104b14f952ebf">&#9670;&nbsp;</a></span>LuaModelGetCoordinateNames()</h2>
+<a id="a13ef4ded9bddce53e54de8ee440d3f17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13ef4ded9bddce53e54de8ee440d3f17">&#9670;&nbsp;</a></span>LuaModelGetCoordinateNames()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI void RigidBodyDynamics::Addons::LuaModelGetCoordinateNames </td>
+          <td class="memname">RBDL_ADDON_DLLAPI void RigidBodyDynamics::Addons::LuaModelGetCoordinateNames </td>
           <td>(</td>
           <td class="paramtype">const Model *&#160;</td>
           <td class="paramname"><em>model</em>, </td>
@@ -266,14 +266,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae342c89fd01cd5333a0530425311cc42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae342c89fd01cd5333a0530425311cc42">&#9670;&nbsp;</a></span>LuaModelReadFromFile()</h2>
+<a id="ae2a86252477fc65f2447343c1f477288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a86252477fc65f2447343c1f477288">&#9670;&nbsp;</a></span>LuaModelReadFromFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadFromFile </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadFromFile </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
@@ -312,14 +312,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af27c7bad59a81c73592341fb00463e10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af27c7bad59a81c73592341fb00463e10">&#9670;&nbsp;</a></span>LuaModelReadFromFileWithConstraints()</h2>
+<a id="a00a51ebc2bb6559127c8c9d141598de1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00a51ebc2bb6559127c8c9d141598de1">&#9670;&nbsp;</a></span>LuaModelReadFromFileWithConstraints()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadFromFileWithConstraints </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadFromFileWithConstraints </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
@@ -372,14 +372,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3a10a02cce90a3d34ad86df5a3939322"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a10a02cce90a3d34ad86df5a3939322">&#9670;&nbsp;</a></span>LuaModelReadFromLuaState()</h2>
+<a id="a8488b9b36f774cdddcc8f33e0e5f68fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8488b9b36f774cdddcc8f33e0e5f68fd">&#9670;&nbsp;</a></span>LuaModelReadFromLuaState()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadFromLuaState </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadFromLuaState </td>
           <td>(</td>
           <td class="paramtype">lua_State *&#160;</td>
           <td class="paramname"><em>L</em>, </td>
@@ -417,14 +417,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa76f0d8597dfbcae79273cfa62b541de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa76f0d8597dfbcae79273cfa62b541de">&#9670;&nbsp;</a></span>LuaModelReadHumanMetaData()</h2>
+<a id="a3fd49fd958421b3af25bcd1d82e807d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fd49fd958421b3af25bcd1d82e807d7">&#9670;&nbsp;</a></span>LuaModelReadHumanMetaData()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadHumanMetaData </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadHumanMetaData </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
@@ -460,14 +460,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aead6a98a937b77b059e2b3eb178bbf3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aead6a98a937b77b059e2b3eb178bbf3f">&#9670;&nbsp;</a></span>LuaModelReadLocalFrames()</h2>
+<a id="a424eb6e04a3929ceb81c90ce7c5ad704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a424eb6e04a3929ceb81c90ce7c5ad704">&#9670;&nbsp;</a></span>LuaModelReadLocalFrames()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadLocalFrames </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadLocalFrames </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
@@ -510,14 +510,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4008193a7c607b851ded185286f583bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4008193a7c607b851ded185286f583bb">&#9670;&nbsp;</a></span>LuaModelReadMillard2016TorqueMuscleSets()</h2>
+<a id="a38e1328db0c992fb5d308e6777a48315"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38e1328db0c992fb5d308e6777a48315">&#9670;&nbsp;</a></span>LuaModelReadMillard2016TorqueMuscleSets()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadMillard2016TorqueMuscleSets </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadMillard2016TorqueMuscleSets </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
@@ -575,14 +575,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a74480cd44dfb4fdd563b2ea125a8e63f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74480cd44dfb4fdd563b2ea125a8e63f">&#9670;&nbsp;</a></span>LuaModelReadMotionCaptureMarkers()</h2>
+<a id="a3712b7edb2201d6bf8f13b659257a5b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3712b7edb2201d6bf8f13b659257a5b5">&#9670;&nbsp;</a></span>LuaModelReadMotionCaptureMarkers()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadMotionCaptureMarkers </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadMotionCaptureMarkers </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
@@ -625,14 +625,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7cd81d2f7b3a5dc2d336a695d6080192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cd81d2f7b3a5dc2d336a695d6080192">&#9670;&nbsp;</a></span>LuaModelReadPoints()</h2>
+<a id="af53014ab3b06d4181c1ea24411d3fc11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af53014ab3b06d4181c1ea24411d3fc11">&#9670;&nbsp;</a></span>LuaModelReadPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadPoints </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelReadPoints </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
@@ -675,14 +675,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa04d1e1bb8b6f8f227cccf386eec7993"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa04d1e1bb8b6f8f227cccf386eec7993">&#9670;&nbsp;</a></span>LuaModelWriteConstraintSetHeaderEntries()</h2>
+<a id="a12fc3ae5f3ecf2d5b7e3cdbbd8c66e5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12fc3ae5f3ecf2d5b7e3cdbbd8c66e5f">&#9670;&nbsp;</a></span>LuaModelWriteConstraintSetHeaderEntries()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteConstraintSetHeaderEntries </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteConstraintSetHeaderEntries </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>header_file_name</em>, </td>
@@ -725,14 +725,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aeb33e03bab0d2dd8aac497b0f3d1b4df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb33e03bab0d2dd8aac497b0f3d1b4df">&#9670;&nbsp;</a></span>LuaModelWriteConstraintSetPhaseHeaderEntries()</h2>
+<a id="aa66d84c5acddcbe4bce3b05a3b453db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa66d84c5acddcbe4bce3b05a3b453db3">&#9670;&nbsp;</a></span>LuaModelWriteConstraintSetPhaseHeaderEntries()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteConstraintSetPhaseHeaderEntries </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteConstraintSetPhaseHeaderEntries </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>header_file_name</em>, </td>
@@ -775,14 +775,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acb6bdb415e1f95d66f4425c722803af5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb6bdb415e1f95d66f4425c722803af5">&#9670;&nbsp;</a></span>LuaModelWriteLocalFrameHeaderEntries()</h2>
+<a id="ade78b2a4c17119e376dd74ca8f84581e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade78b2a4c17119e376dd74ca8f84581e">&#9670;&nbsp;</a></span>LuaModelWriteLocalFrameHeaderEntries()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteLocalFrameHeaderEntries </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteLocalFrameHeaderEntries </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>header_file_name</em>, </td>
@@ -818,14 +818,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a57a34a54d120e4e5bc83adbb3db1f976"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57a34a54d120e4e5bc83adbb3db1f976">&#9670;&nbsp;</a></span>LuaModelWriteMillard2016TorqueMuscleHeaderEntries()</h2>
+<a id="a329b788f5f43af0d4b1da56eff057b22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a329b788f5f43af0d4b1da56eff057b22">&#9670;&nbsp;</a></span>LuaModelWriteMillard2016TorqueMuscleHeaderEntries()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteMillard2016TorqueMuscleHeaderEntries </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteMillard2016TorqueMuscleHeaderEntries </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>header_file_name</em>, </td>
@@ -868,14 +868,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1e4e36b54de9ae898e054042282051d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e4e36b54de9ae898e054042282051d4">&#9670;&nbsp;</a></span>LuaModelWriteModelHeaderEntries()</h2>
+<a id="a879ca23ed2b0c64cd1b90a1c34410580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a879ca23ed2b0c64cd1b90a1c34410580">&#9670;&nbsp;</a></span>LuaModelWriteModelHeaderEntries()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteModelHeaderEntries </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteModelHeaderEntries </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>header_file_name</em>, </td>
@@ -911,14 +911,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a96db7724dde85c26df2bf360da80ac80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96db7724dde85c26df2bf360da80ac80">&#9670;&nbsp;</a></span>LuaModelWriteMotionCaptureMarkerHeaderEntries()</h2>
+<a id="a7e424097abf5fc828d2bb39180b00406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e424097abf5fc828d2bb39180b00406">&#9670;&nbsp;</a></span>LuaModelWriteMotionCaptureMarkerHeaderEntries()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteMotionCaptureMarkerHeaderEntries </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWriteMotionCaptureMarkerHeaderEntries </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>header_file_name</em>, </td>
@@ -954,14 +954,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acf382648601ca269efd8e637b0b644a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf382648601ca269efd8e637b0b644a7">&#9670;&nbsp;</a></span>LuaModelWritePointsHeaderEntries()</h2>
+<a id="a80097624ea3a12f9da3ed3ad8c22239e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80097624ea3a12f9da3ed3ad8c22239e">&#9670;&nbsp;</a></span>LuaModelWritePointsHeaderEntries()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWritePointsHeaderEntries </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::LuaModelWritePointsHeaderEntries </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>header_file_name</em>, </td>
@@ -997,14 +997,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a81abcf364eb280650dad7f60fbccf5d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81abcf364eb280650dad7f60fbccf5d6">&#9670;&nbsp;</a></span>URDFReadFromFile()</h2>
+<a id="af01cd376f05076b855ad55a625d95065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af01cd376f05076b855ad55a625d95065">&#9670;&nbsp;</a></span>URDFReadFromFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::URDFReadFromFile </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::URDFReadFromFile </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
@@ -1047,14 +1047,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad8d0b0202a7e40662ef21fdfb5f5bc29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8d0b0202a7e40662ef21fdfb5f5bc29">&#9670;&nbsp;</a></span>URDFReadFromString()</h2>
+<a id="acf3dd1c0bd35ef2da293cc77fb62c0dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf3dd1c0bd35ef2da293cc77fb62c0dd">&#9670;&nbsp;</a></span>URDFReadFromString()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">RBDL_DLLAPI bool RigidBodyDynamics::Addons::URDFReadFromString </td>
+          <td class="memname">RBDL_ADDON_DLLAPI bool RigidBodyDynamics::Addons::URDFReadFromString </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>model_xml_string</em>, </td>
@@ -1103,7 +1103,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dd/d16/namespace_rigid_body_dynamics.html">RigidBodyDynamics</a></li><li class="navelem"><a class="el" href="../../d6/db6/namespace_rigid_body_dynamics_1_1_addons.html">Addons</a></li>
-    <li class="footer">Generated on Tue May 18 2021 17:10:18 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Sep 23 2021 12:29:42 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

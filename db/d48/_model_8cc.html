@@ -92,9 +92,9 @@ $(document).ready(function(){initNavTree('db/d48/_model_8cc.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a53699648c5840620987908b0a82a54de"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d48/_model_8cc.html#a53699648c5840620987908b0a82a54de">AddBodyFixedJoint</a> (Model &amp;model, const unsigned int parent_id, const <a class="el" href="../../dd/df9/struct_rigid_body_dynamics_1_1_math_1_1_spatial_transform.html">SpatialTransform</a> &amp;joint_frame, const <a class="el" href="../../d0/d8f/struct_rigid_body_dynamics_1_1_joint.html">Joint</a> &amp;joint, const <a class="el" href="../../da/dd2/struct_rigid_body_dynamics_1_1_body.html">Body</a> &amp;body, std::string body_name)</td></tr>
+<tr class="memitem:a53699648c5840620987908b0a82a54de"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d48/_model_8cc.html#a53699648c5840620987908b0a82a54de">AddBodyFixedJoint</a> (Model &amp;model, const unsigned int parent_id, const <a class="el" href="../../dd/df9/struct_rigid_body_dynamics_1_1_math_1_1_spatial_transform.html">SpatialTransform</a> &amp;joint_frame, const Joint &amp;joint, const <a class="el" href="../../da/dd2/struct_rigid_body_dynamics_1_1_body.html">Body</a> &amp;body, std::string body_name)</td></tr>
 <tr class="separator:a53699648c5840620987908b0a82a54de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c351ac1f20fd05768e3261c8d463dfd"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d48/_model_8cc.html#a3c351ac1f20fd05768e3261c8d463dfd">AddBodyMultiDofJoint</a> (Model &amp;model, const unsigned int parent_id, const <a class="el" href="../../dd/df9/struct_rigid_body_dynamics_1_1_math_1_1_spatial_transform.html">SpatialTransform</a> &amp;joint_frame, const <a class="el" href="../../d0/d8f/struct_rigid_body_dynamics_1_1_joint.html">Joint</a> &amp;joint, const <a class="el" href="../../da/dd2/struct_rigid_body_dynamics_1_1_body.html">Body</a> &amp;body, std::string body_name)</td></tr>
+<tr class="memitem:a3c351ac1f20fd05768e3261c8d463dfd"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d48/_model_8cc.html#a3c351ac1f20fd05768e3261c8d463dfd">AddBodyMultiDofJoint</a> (Model &amp;model, const unsigned int parent_id, const <a class="el" href="../../dd/df9/struct_rigid_body_dynamics_1_1_math_1_1_spatial_transform.html">SpatialTransform</a> &amp;joint_frame, const Joint &amp;joint, const <a class="el" href="../../da/dd2/struct_rigid_body_dynamics_1_1_body.html">Body</a> &amp;body, std::string body_name)</td></tr>
 <tr class="separator:a3c351ac1f20fd05768e3261c8d463dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -125,7 +125,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d0/d8f/struct_rigid_body_dynamics_1_1_joint.html">Joint</a> &amp;&#160;</td>
+          <td class="paramtype">const Joint &amp;&#160;</td>
           <td class="paramname"><em>joint</em>, </td>
         </tr>
         <tr>
@@ -150,7 +150,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d48/_model_8cc_source.html#l00090">90</a> of file <a class="el" href="../../db/d48/_model_8cc_source.html">Model.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d4/df9/_body_8h_source.html#l00222">FixedBody::CreateFromBody()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00116">SpatialRigidBodyInertia::createFromMassComInertiaC()</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00111">Body::Join()</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00194">Body::mCenterOfMass</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00196">Body::mInertia</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00189">Body::mMass</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00216">FixedBody::mMovableParent</a>, and <a class="el" href="../../d4/df9/_body_8h_source.html#l00219">FixedBody::mParentTransform</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/df9/_body_8h_source.html#l00226">FixedBody::CreateFromBody()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00116">SpatialRigidBodyInertia::createFromMassComInertiaC()</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00111">Body::Join()</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00198">Body::mCenterOfMass</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00200">Body::mInertia</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00193">Body::mMass</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00220">FixedBody::mMovableParent</a>, and <a class="el" href="../../d4/df9/_body_8h_source.html#l00223">FixedBody::mParentTransform</a>.</p>
 
 </div>
 </div>
@@ -181,7 +181,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d0/d8f/struct_rigid_body_dynamics_1_1_joint.html">Joint</a> &amp;&#160;</td>
+          <td class="paramtype">const Joint &amp;&#160;</td>
           <td class="paramname"><em>joint</em>, </td>
         </tr>
         <tr>
@@ -206,7 +206,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d48/_model_8cc_source.html#l00149">149</a> of file <a class="el" href="../../db/d48/_model_8cc_source.html">Model.cc</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d7/d31/_joint_8h_source.html#l00196">RigidBodyDynamics::JointType1DoF</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00197">RigidBodyDynamics::JointType2DoF</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00198">RigidBodyDynamics::JointType3DoF</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00199">RigidBodyDynamics::JointType4DoF</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00200">RigidBodyDynamics::JointType5DoF</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00201">RigidBodyDynamics::JointType6DoF</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00193">RigidBodyDynamics::JointTypeFloatingBase</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00184">RigidBodyDynamics::JointTypePrismatic</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00183">RigidBodyDynamics::JointTypeRevolute</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00188">RigidBodyDynamics::JointTypeSpherical</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00192">RigidBodyDynamics::JointTypeTranslationXYZ</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00198">Body::mIsVirtual</a>, <a class="el" href="../../d7/d31/_joint_8h_source.html#l00692">Joint::mJointAxes</a>, and <a class="el" href="../../d7/d31/_joint_8h_source.html#l00694">Joint::mJointType</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d48/_model_8cc_source.html#l00090">AddBodyFixedJoint()</a>, <a class="el" href="../../d4/d41/_spatial_algebra_operators_8h_source.html#l00116">SpatialRigidBodyInertia::createFromMassComInertiaC()</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00198">Body::mCenterOfMass</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00200">Body::mInertia</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00202">Body::mIsVirtual</a>, <a class="el" href="../../d4/df9/_body_8h_source.html#l00193">Body::mMass</a>, <a class="el" href="../../dc/d2d/_m_x___xd__static_8h_source.html#l00261">MX_Xd_static&lt; nrows, ncols &gt;::Zero()</a>, and <a class="el" href="../../d2/d41/_m_x___xd__dynamic_8h_source.html#l00052">MX_Xd_dynamic::Zero()</a>.</p>
 
 </div>
 </div>
@@ -216,7 +216,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="../../db/d48/_model_8cc.html">Model.cc</a></li>
-    <li class="footer">Generated on Tue May 18 2021 17:10:18 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Sep 23 2021 12:29:42 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

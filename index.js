@@ -8,15 +8,6 @@ var index =
     [ "License", "index.html#license", null ],
     [ "Acknowledgements", "index.html#Acknowledgements", null ],
     [ "API Changes", "d8/d59/api_version_checking_page.html", null ],
-    [ "Joint Modeling", "df/dbe/joint_description.html", [
-      [ "Overview", "df/dbe/joint_description.html#joint_overview", null ],
-      [ "Fixed Joints", "df/dbe/joint_description.html#joint_models_fixed", null ],
-      [ "3-DoF Joints", "df/dbe/joint_description.html#joint_three_dof", null ],
-      [ "Floating-Base Joint (a.k.a. Freeflyer Joint)", "df/dbe/joint_description.html#joint_floatingbase", null ],
-      [ "Joint Singularities", "df/dbe/joint_description.html#joint_singularities", [
-        [ "Numerical Integration of Quaternions", "df/dbe/joint_description.html#spherical_integration", null ]
-      ] ]
-    ] ],
     [ "Addon: rbdl_luamodel", "d8/d35/addon_luamodel_page.html", [
       [ "Lua Models", "d8/d35/addon_luamodel_page.html#luamodel_introduction", null ],
       [ "Format Overview", "d8/d35/addon_luamodel_page.html#luamodel_format", null ],

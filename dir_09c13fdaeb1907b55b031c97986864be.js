@@ -1,5 +1,6 @@
 var dir_09c13fdaeb1907b55b031c97986864be =
 [
+    [ "CasadiMath", "dir_4a11ea398e2a3edc90bc2cbd0715dddd.html", "dir_4a11ea398e2a3edc90bc2cbd0715dddd" ],
     [ "Body.h", "d4/df9/_body_8h.html", [
       [ "Body", "da/dd2/struct_rigid_body_dynamics_1_1_body.html", "da/dd2/struct_rigid_body_dynamics_1_1_body" ],
       [ "FixedBody", "d9/d63/struct_rigid_body_dynamics_1_1_fixed_body.html", "d9/d63/struct_rigid_body_dynamics_1_1_fixed_body" ]
@@ -17,7 +18,7 @@ var dir_09c13fdaeb1907b55b031c97986864be =
     ] ],
     [ "Constraints.h", "da/dc9/_constraints_8h.html", "da/dc9/_constraints_8h" ],
     [ "Dynamics.h", "d6/de0/_dynamics_8h.html", "d6/de0/_dynamics_8h" ],
-    [ "Joint.h", "d7/d31/_joint_8h.html", "d7/d31/_joint_8h" ],
+    [ "Joint.h", "d7/d31/_joint_8h.html", null ],
     [ "Kinematics.h", "d0/dee/_kinematics_8h.html", "d0/dee/_kinematics_8h" ],
     [ "Logging.h", "da/def/_logging_8h.html", "da/def/_logging_8h" ],
     [ "Model.h", "da/ded/_model_8h.html", null ],
@@ -30,6 +31,7 @@ var dir_09c13fdaeb1907b55b031c97986864be =
       [ "Matrix3_t", "d4/d57/class_matrix3__t.html", "d4/d57/class_matrix3__t" ],
       [ "Vector4_t", "d0/dcd/class_vector4__t.html", "d0/dcd/class_vector4__t" ],
       [ "SpatialVector_t", "d8/d74/class_spatial_vector__t.html", "d8/d74/class_spatial_vector__t" ],
+      [ "Matrix4_t", "db/d47/class_matrix4__t.html", "db/d47/class_matrix4__t" ],
       [ "SpatialMatrix_t", "da/dcc/class_spatial_matrix__t.html", "da/dcc/class_spatial_matrix__t" ]
     ] ],
     [ "rbdl_errors.h", "db/da8/rbdl__errors_8h.html", [

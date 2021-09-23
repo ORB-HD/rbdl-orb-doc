@@ -5,6 +5,12 @@ var annotated_dup =
       [ "STATIC_ASSERT_FAILURE< true >", "d8/da2/structcustom__static__assert_1_1_s_t_a_t_i_c___a_s_s_e_r_t___f_a_i_l_u_r_e_3_01true_01_4.html", null ],
       [ "custom_static_assert_test", "d1/d42/structcustom__static__assert_1_1custom__static__assert__test.html", null ]
     ] ],
+    [ "RBDLCasadiMath", "df/d09/namespace_r_b_d_l_casadi_math.html", [
+      [ "MX_Xd_dynamic", "d5/d63/class_r_b_d_l_casadi_math_1_1_m_x___xd__dynamic.html", "d5/d63/class_r_b_d_l_casadi_math_1_1_m_x___xd__dynamic" ],
+      [ "MX_Xd_scalar", "dd/d69/class_r_b_d_l_casadi_math_1_1_m_x___xd__scalar.html", "dd/d69/class_r_b_d_l_casadi_math_1_1_m_x___xd__scalar" ],
+      [ "MX_Xd_static", "d8/d33/class_r_b_d_l_casadi_math_1_1_m_x___xd__static.html", "d8/d33/class_r_b_d_l_casadi_math_1_1_m_x___xd__static" ],
+      [ "MX_Xd_SubMatrix", "df/db6/class_r_b_d_l_casadi_math_1_1_m_x___xd___sub_matrix.html", "df/db6/class_r_b_d_l_casadi_math_1_1_m_x___xd___sub_matrix" ]
+    ] ],
     [ "RigidBodyDynamics", "dd/d16/namespace_rigid_body_dynamics.html", [
       [ "Addons", "d6/db6/namespace_rigid_body_dynamics_1_1_addons.html", [
         [ "Geometry", "d7/dbd/namespace_rigid_body_dynamics_1_1_addons_1_1_geometry.html", [
@@ -52,16 +58,13 @@ var annotated_dup =
       [ "ContactConstraint", "db/d25/class_rigid_body_dynamics_1_1_contact_constraint.html", "db/d25/class_rigid_body_dynamics_1_1_contact_constraint" ],
       [ "LoopConstraint", "d5/d28/class_rigid_body_dynamics_1_1_loop_constraint.html", "d5/d28/class_rigid_body_dynamics_1_1_loop_constraint" ],
       [ "ConstraintSet", "d7/de7/struct_rigid_body_dynamics_1_1_constraint_set.html", "d7/de7/struct_rigid_body_dynamics_1_1_constraint_set" ],
-      [ "JointMapEntry", "d8/d59/struct_rigid_body_dynamics_1_1_joint_map_entry.html", "d8/d59/struct_rigid_body_dynamics_1_1_joint_map_entry" ],
-      [ "AxisMapEntry", "d5/df7/struct_rigid_body_dynamics_1_1_axis_map_entry.html", "d5/df7/struct_rigid_body_dynamics_1_1_axis_map_entry" ],
-      [ "Joint", "d0/d8f/struct_rigid_body_dynamics_1_1_joint.html", "d0/d8f/struct_rigid_body_dynamics_1_1_joint" ],
-      [ "CustomJoint", "d9/dcf/struct_rigid_body_dynamics_1_1_custom_joint.html", "d9/dcf/struct_rigid_body_dynamics_1_1_custom_joint" ],
       [ "InverseKinematicsConstraintSet", "d5/d19/struct_rigid_body_dynamics_1_1_inverse_kinematics_constraint_set.html", "d5/d19/struct_rigid_body_dynamics_1_1_inverse_kinematics_constraint_set" ]
     ] ],
     [ "HumanMetaData", "df/de7/struct_human_meta_data.html", "df/de7/struct_human_meta_data" ],
     [ "LocalFrame", "dd/d12/struct_local_frame.html", "dd/d12/struct_local_frame" ],
     [ "LoggingGuard", "da/dd1/class_logging_guard.html", "da/dd1/class_logging_guard" ],
     [ "Matrix3_t", "d4/d57/class_matrix3__t.html", "d4/d57/class_matrix3__t" ],
+    [ "Matrix4_t", "db/d47/class_matrix4__t.html", "db/d47/class_matrix4__t" ],
     [ "Millard2016TorqueMuscleConfig", "de/dbf/struct_millard2016_torque_muscle_config.html", "de/dbf/struct_millard2016_torque_muscle_config" ],
     [ "MotionCaptureMarker", "d7/de0/struct_motion_capture_marker.html", "d7/de0/struct_motion_capture_marker" ],
     [ "Point", "d8/dc8/struct_point.html", "d8/dc8/struct_point" ],

@@ -100,10 +100,18 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <h1><a class="anchor" id="download"></a>
 Download</h1>
 <p>All development takes place on GitHub and you can follow RBDL's development and obtain code here:<br  />
- <a href="https://github.com/rbdl/rbdl">https://github.com/rbdl/rbdl</a></p>
+ <a href="https://github.com/orb-hd/rbdl-orb">https://github.com/orb-hd/rbdl-orb</a></p>
 <h1><a class="anchor" id="recent_changes"></a>
 Recent Changes</h1>
 <ul>
+<li>
+13 August 2021: New release 3.1.0: <ul>
+<li>
+Added support for rbdl-casadi, as an additional version of the rbdl library. It may be installed on the system in parallel to rbdl. </li>
+<li>
+Added system install of cmake config files, so that projects building on rbdl do not need to provide their own FindRBDL.cmake files anymore. </li>
+</ul>
+</li>
 <li>
 02 May 2018: New release 2.6.0: <ul>
 <li>
@@ -113,7 +121,7 @@ New constraint type CustomConstraint: a versatile interface to define more gener
 <li>
 New joint type JointTypeHelical that can be used for screwing motions (translations and simultaneous rotations), contributed by Stuart Anderson. </li>
 <li>
-Added support to specify external forces on bodies on constrained forward dynamics and <a class="el" href="d6/d63/group__dynamics__group.html#ga1782fbfb223812259d73fec58deff94e" title="Computes the coriolis forces.">NonlinearEffects()</a> (contributed by Matthew J. Millard) </li>
+Added support to specify external forces on bodies on constrained forward dynamics and <a class="el" href="d6/d63/group__dynamics__group.html#ga71fcc25823fd22f830d3df99942ade74" title="Computes the coriolis forces.">NonlinearEffects()</a> (contributed by Matthew J. Millard) </li>
 <li>
 Changed Quaternion multiplication behaviour for a more standard convention: multiplying q1 (1,0,0,0) with q2 (0,1,0,0) results now in (0,0,1,0) instead of the previous (0,0,-1,0). </li>
 <li>
@@ -129,11 +137,11 @@ Added an experimental Cython based Python wrapper of RBDL. The API is very close
 <li>
 Matthew Millard added CustomJoints which allow to create different joint types completely by user code. They are implemented as proxy joints for which their behaviour is specified using virtual functions. </li>
 <li>
-Added <a class="el" href="d6/d63/group__dynamics__group.html#gafef073ded6f7cbedc1bbfe61390feee2" title="Computes the effect of multiplying the inverse of the joint space inertia matrix with a vector in lin...">CalcMInvTimesTau()</a> that evaluates multiplication of the inverse of the joint space inertia matrix with a vector in O(n) time. </li>
+Added <a class="el" href="d6/d63/group__dynamics__group.html#ga4cefa824d8b162e0dcca2ce5dfba040d" title="Computes the effect of multiplying the inverse of the joint space inertia matrix with a vector in lin...">CalcMInvTimesTau()</a> that evaluates multiplication of the inverse of the joint space inertia matrix with a vector in O(n) time. </li>
 <li>
 Added JointTypeFloatingBase which uses TX,TY,TZ and a spherical joint for the floating base joint. </li>
 <li>
-Loading of floating base URDF models must now be specified as a third parameter to <a class="el" href="d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a81abcf364eb280650dad7f60fbccf5d6">URDFReadFromFile()</a> and <a class="el" href="d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#ad8d0b0202a7e40662ef21fdfb5f5bc29">URDFReadFromString()</a> </li>
+Loading of floating base URDF models must now be specified as a third parameter to <a class="el" href="d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#af01cd376f05076b855ad55a625d95065">URDFReadFromFile()</a> and <a class="el" href="d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#acf3dd1c0bd35ef2da293cc77fb62c0dd">URDFReadFromString()</a> </li>
 <li>
 Added the URDF code from Bullet3 which gets used when ROS is not found. Otherwise use the URDF libraries found via Catkin. </li>
 <li>
@@ -149,7 +157,7 @@ Fixed building issues when building DLL with MSVC++. </li>
 <li>
 <b>critical</b>: fixed termination criterion for <a class="el" href="de/d92/group__kinematics__group.html#gae99a5094d7dabbe877c01b66868b334f" title="Computes the inverse kinematics iteratively using a damped Levenberg-Marquardt method (also known as ...">InverseKinematics()</a>. The termination criterion would be evaluated too early and thus report convergence too early. This was reported independently by Kevin Stein, Yun Fei, and Davide Corradi. Thanks for the reports! </li>
 <li>
-<b>critical</b>: fixed <a class="el" href="d6/d63/group__dynamics__group.html#ga16a9d225d96d260af451f69e258d0875" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a> when using spherical joints (thanks to Sébastien Barthélémy for reporting!)  </li>
+<b>critical</b>: fixed <a class="el" href="d6/d63/group__dynamics__group.html#gab96bd7cf90ba4130b5f12dd0ad5668e9" title="Computes the joint space inertia matrix by using the Composite Rigid Body Algorithm.">CompositeRigidBodyAlgorithm()</a> when using spherical joints (thanks to Sébastien Barthélémy for reporting!)  </li>
 </ul>
 </li>
 <li>
@@ -161,27 +169,27 @@ Added null-space method ForwardDynamicsContactsNullSpace() and ComputeContactImp
 <li>
 Renamed ForwardDynamicsContactsLagrangian() to ForwardDynamicsContactsDirect() and ComputeContactImpulsesLagrangian() to ComputeContactImpulsesDirect() </li>
 <li>
-Renamed ForwardDynamicsContacts() to <a class="el" href="d3/d7d/group__constraints__group.html#gaa54ca5500dacb8c4f51694132ede62fc" title="Computes forward dynamics that accounts for active contacts in ConstraintSet.">ForwardDynamicsContactsKokkevis()</a> </li>
+Renamed ForwardDynamicsContacts() to <a class="el" href="d3/d7d/group__constraints__group.html#gad8c4672f2fb3e7e43626a2029070730d" title="Computes forward dynamics that accounts for active contacts in ConstraintSet.">ForwardDynamicsContactsKokkevis()</a> </li>
 <li>
-Removed/Fixed CalcAngularMomentum(). The function produced wrong values. The functionality has been integrated into <a class="el" href="df/d72/namespace_rigid_body_dynamics_1_1_utils.html#abfadeaeccca866d38e837e0a2cd9049d" title="Computes the Center of Mass (COM) and optionally its linear velocity.">CalcCenterOfMass()</a>. </li>
+Removed/Fixed CalcAngularMomentum(). The function produced wrong values. The functionality has been integrated into <a class="el" href="df/d72/namespace_rigid_body_dynamics_1_1_utils.html#a5ec4096a8e6391c4d11126c7e0f7b9a0" title="Computes the Center of Mass (COM) and optionally its linear velocity.">CalcCenterOfMass()</a>. </li>
 <li>
 <a class="el" href="de/d92/group__kinematics__group.html#gac6fb7d23482d5de3975a0d530f8eab33" title="Computes the point jacobian for a point on a body.">CalcPointJacobian()</a> does not clear the argument of the result anymore. Caller has to ensure that the matrix was set to zero before using this function. </li>
 <li>
-Added optional workspace parameters for <a class="el" href="d6/d63/group__dynamics__group.html#gab13a6bfb25e543108bb2aa5e37c9d6a0" title="Computes forward dynamics by building and solving the full Lagrangian equation.">ForwardDynamicsLagrangian()</a> to optionally reduce memory allocations </li>
+Added optional workspace parameters for <a class="el" href="d6/d63/group__dynamics__group.html#gaa091625c360c337a1392f0df14b8953f" title="Computes forward dynamics by building and solving the full Lagrangian equation.">ForwardDynamicsLagrangian()</a> to optionally reduce memory allocations </li>
 <li>
 Added JointTypeTranslationXYZ, JointTypeEulerXYZ, and JointTypeEulerYXZ which are equivalent to the emulated multidof joints but faster. </li>
 <li>
-Added optional parameter to <a class="el" href="df/d72/namespace_rigid_body_dynamics_1_1_utils.html#abfadeaeccca866d38e837e0a2cd9049d" title="Computes the Center of Mass (COM) and optionally its linear velocity.">CalcCenterOfMass()</a> to compute angular momentum. </li>
+Added optional parameter to <a class="el" href="df/d72/namespace_rigid_body_dynamics_1_1_utils.html#a5ec4096a8e6391c4d11126c7e0f7b9a0" title="Computes the Center of Mass (COM) and optionally its linear velocity.">CalcCenterOfMass()</a> to compute angular momentum. </li>
 <li>
 Added <a class="el" href="de/d92/group__kinematics__group.html#ga231c617679d168c57c40fe0169484200" title="Computes the spatial jacobian for a body.">CalcBodySpatialJacobian()</a> </li>
 <li>
 Added CalcContactJacobian() </li>
 <li>
-Added <a class="el" href="d6/d63/group__dynamics__group.html#ga1782fbfb223812259d73fec58deff94e" title="Computes the coriolis forces.">NonlinearEffects()</a> </li>
+Added <a class="el" href="d6/d63/group__dynamics__group.html#ga71fcc25823fd22f830d3df99942ade74" title="Computes the coriolis forces.">NonlinearEffects()</a> </li>
 <li>
 Added solving of linear systems using standard Householder QR </li>
 <li>
-LuaModel: Added <a class="el" href="d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a3a10a02cce90a3d34ad86df5a3939322" title="Reads a model from a lua_State.">LuaModelReadFromLuaState()</a> </li>
+LuaModel: Added <a class="el" href="d6/db6/namespace_rigid_body_dynamics_1_1_addons.html#a8488b9b36f774cdddcc8f33e0e5f68fd" title="Reads a model from a lua_State.">LuaModelReadFromLuaState()</a> </li>
 <li>
 URDFReader: Fixed various issues and using faster joints for floating base models </li>
 <li>
@@ -199,7 +207,7 @@ Examples</h1>
 API Overview</h1>
 <ul>
 <li>modeling_page </li>
-<li><a class="el" href="df/dbe/joint_description.html">Joint Modeling</a> </li>
+<li>joint_description </li>
 <li><a class="el" href="de/d92/group__kinematics__group.html">Kinematics</a> </li>
 <li><a class="el" href="d6/d63/group__dynamics__group.html">Dynamics</a> </li>
 <li><a class="el" href="d3/d7d/group__constraints__group.html">Constraints</a> </li>
@@ -251,7 +259,7 @@ Acknowledgements</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 18 2021 17:10:19 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Sep 23 2021 12:29:42 for Rigid Body Dynamics Library by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
